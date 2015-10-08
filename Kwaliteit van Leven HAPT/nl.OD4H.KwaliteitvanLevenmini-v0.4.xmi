@@ -1,0 +1,1585 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<XMI xmi.version="1.1" xmlns:UML="omg.org/UML1.3" timestamp="2015-03-16 07:30:40">
+	<XMI.header>
+		<XMI.documentation>
+			<XMI.exporter>Enterprise Architect</XMI.exporter>
+			<XMI.exporterVersion>2.5</XMI.exporterVersion>
+		</XMI.documentation>
+	</XMI.header>
+	<XMI.content>
+		<UML:Model name="EA Model" xmi.id="MX_EAID_0D46ED1F_6DD1_43ac_B26B_075654653C2C">
+			<UML:Namespace.ownedElement>
+				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
+				<UML:Package name="nl.OD4H.KwaliteitvanLevenmini-v0.4" xmi.id="EAPK_0D46ED1F_6DD1_43ac_B26B_075654653C2C" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+					<UML:ModelElement.stereotype>
+						<UML:Stereotype xmi.idref="EAID_94A230BB_0579_47ac_9C54_69EA0CE0A760"/>
+					</UML:ModelElement.stereotype>
+					<UML:ModelElement.taggedValue>
+						<UML:TaggedValue tag="documentation" value="&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;The name of the DCM should be equal to the rootconcept name in the information model. For example Blood Pressure.&lt;/i&gt;&lt;/font&gt;&#xA;&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;Other meta information is in the Tagged Values of this package. To view these open the &quot;Tagged Values&quot; view in EA&lt;/i&gt;&lt;/font&gt;&#xA;&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;Bij Name de titel van deze DCM vermelden, bijvoorbeeld Blood Pressure.&lt;/i&gt;&lt;/font&gt;&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;Bij Alias; de Nederlandse term beschrijven van de Name, bijvoorbeeld Bloeddruk&lt;/i&gt;&lt;/font&gt;&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;Metainformatie: wordt gestopt in Tagged Values van de DCM Root Package. Open hiervoor de view &quot;Tagged Values&quot; in EA om ze zichtbaar te maken.&lt;/i&gt;&lt;/font&gt;"/>
+						<UML:TaggedValue tag="parent" value="EAPK_AF260723_7155_443c_B1ED_737C3D17451F"/>
+						<UML:TaggedValue tag="created" value="2009-09-19 00:00:00"/>
+						<UML:TaggedValue tag="modified" value="2015-03-16 07:28:03"/>
+						<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+						<UML:TaggedValue tag="lastloaddate" value="2015-03-15 17:16:40"/>
+						<UML:TaggedValue tag="lastsavedate" value="2015-03-15 17:16:40"/>
+						<UML:TaggedValue tag="version" value="1.0"/>
+						<UML:TaggedValue tag="isprotected" value="FALSE"/>
+						<UML:TaggedValue tag="usedtd" value="FALSE"/>
+						<UML:TaggedValue tag="logxml" value="FALSE"/>
+						<UML:TaggedValue tag="tpos" value="28"/>
+						<UML:TaggedValue tag="packageFlags" value="CRC=0;"/>
+						<UML:TaggedValue tag="batchsave" value="0"/>
+						<UML:TaggedValue tag="batchload" value="0"/>
+						<UML:TaggedValue tag="phase" value="1.0"/>
+						<UML:TaggedValue tag="status" value="Proposed"/>
+						<UML:TaggedValue tag="author" value="ZelM"/>
+						<UML:TaggedValue tag="alias" value="Sjabloon"/>
+						<UML:TaggedValue tag="complexity" value="1"/>
+						<UML:TaggedValue tag="stereotype" value="DCM"/>
+						<UML:TaggedValue tag="ea_stype" value="Public"/>
+						<UML:TaggedValue tag="tpos" value="28"/>
+						<UML:TaggedValue tag="gentype" value="Java"/>
+					</UML:ModelElement.taggedValue>
+					<UML:Namespace.ownedElement>
+						<UML:Collaboration xmi.id="EAID_0D46ED1F_6DD1_43ac_B26B_075654653C2C_Collaboration" name="Collaborations">
+							<UML:Namespace.ownedElement>
+								<UML:ClassifierRole name="Care Process" xmi.id="EAID_259F52EA_1D50_4d39_8D19_84E9D69DDAE4" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;font color=&quot;#408080&quot;&gt;&lt;b&gt;&lt;i&gt;If necessary &lt;/i&gt;&lt;/b&gt;&lt;i&gt;give a description of the place of the DCM in the care process. Here it concerns the dependences of the use of the DCM, the implementation of the DCM related to other activities in the care process. Decisions and criteria that are in advance of the use of the DCM and who needs tot do what. &lt;/i&gt;&lt;/font&gt;&#xA;&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;font color=&quot;#0000ff&quot;&gt;Meetschaal die volgens een bepaald schema op meerdere momenten tijdens de cardiorevalidatie wordt toegepast. &lt;/font&gt;"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_0D46ED1F_6DD1_43ac_B26B_075654653C2C"/>
+										<UML:TaggedValue tag="date_created" value="2009-07-04 12:17:25"/>
+										<UML:TaggedValue tag="date_modified" value="2015-03-15 17:23:44"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_259F52EA_1D50_4d39_8D19_84E9D69DDAE4"/>
+										<UML:TaggedValue tag="package_name" value="nl.OD4H.KwaliteitvanLevenmini-v0.4"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="Zorgproces / afhankelijkheid"/>
+										<UML:TaggedValue tag="author" value="ZelM"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="10"/>
+										<UML:TaggedValue tag="ea_localid" value="4736"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Terms of Use" xmi.id="EAID_29257CF2_0398_4f38_BA65_FDDC4E4BBA66" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;Het DCM is open source, met andere woorden vrij te gebruiken, mits in ongewijzigde vorm. &#xA;Veranderen van inhoud en coderingen wordt gezien als een inbreuk op de auteursrechten en copyrights en is schadelijk voor het gebruiksdoel: realiseren van semantische interoperabiliteit.&#xA;&#xA;U kunt wel wijzigingsvoorstellen sturen aan DCMHelpdesk@results4care.eu&#xA;&#xA;Revisievoorstellen zullen worden bekeken en kunnen leiden tot: &#xA;&#xA;a.   herziene DCM en uitwerkingen als e.e.a. wordt geaccepteerd.&#xA;b.   varianten van DCM die op een lokale situatie zijn toegesneden.&#xA;&#xA;Het geheel gaat uit van het uitgangspunt: een ‘common ownership’, maar een ‘special stewardship’."/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_0D46ED1F_6DD1_43ac_B26B_075654653C2C"/>
+										<UML:TaggedValue tag="date_created" value="2010-01-08 13:46:48"/>
+										<UML:TaggedValue tag="date_modified" value="2015-03-16 07:19:37"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_29257CF2_0398_4f38_BA65_FDDC4E4BBA66"/>
+										<UML:TaggedValue tag="package_name" value="nl.OD4H.KwaliteitvanLevenmini-v0.4"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="Gebruiksvoorwaarden"/>
+										<UML:TaggedValue tag="author" value="ZelM"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="18"/>
+										<UML:TaggedValue tag="ea_localid" value="4744"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Mindmap" xmi.id="EAID_2D0C645E_E50C_4343_9F42_FD670B59460E" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;TODO: Translate&lt;/i&gt;&lt;/font&gt;&#xA;&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;Een eerste voorbeeld van een mindmap betreffende een concept kan meerdere DCMs omvatten. Bijvoorbeeld Vitale functies bevat, hartslag, ademhaling,bloeddruk en lichaamstemperatuur.&lt;/i&gt;&lt;/font&gt;&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;Een tweede voorbeeld van een mindmap betreft een enkele DCM, bijvoorbeeld die van ademhaling.&lt;/i&gt;&lt;/font&gt;&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;Het tweede voorbeeld is onderdeel van de DCM Ademhaling.&lt;/i&gt;&lt;/font&gt;&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;Een mindmap kan gemaakt worden in EA, maar ook in een ander programma. Een plaatje van de mindmap wordt dan aan de DCM toegevoegd.&lt;/i&gt;&lt;/font&gt;&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;Meer over het maken van een mindmap in de handleiding ' Ontwikkeling van een DCM'. &lt;/i&gt;&lt;/font&gt;&#xA;"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_0D46ED1F_6DD1_43ac_B26B_075654653C2C"/>
+										<UML:TaggedValue tag="date_created" value="2009-07-04 12:17:14"/>
+										<UML:TaggedValue tag="date_modified" value="2011-01-14 10:32:33"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_2D0C645E_E50C_4343_9F42_FD670B59460E"/>
+										<UML:TaggedValue tag="package_name" value="nl.OD4H.KwaliteitvanLevenmini-v0.4"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="Mindmap"/>
+										<UML:TaggedValue tag="author" value="ZelM"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="3"/>
+										<UML:TaggedValue tag="ea_localid" value="4728"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Concept" xmi.id="EAID_30BF6065_4760_48e2_BC9C_BE37E22F2469" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;Put the description and the definition of the concept here.&lt;/i&gt;&lt;/font&gt;&#xA;&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;font color=&quot;#0f0f0f&quot;&gt;Totaalscore kwaliteit van levenschaal zoals gebruikt voor SmartCare.&lt;/font&gt;&#xA;&lt;font color=&quot;#0f0f0f&quot;&gt;&#xA;&lt;/font&gt;Het Nationaal Kompas Volksgezondheid (2013) omschrijft Kwaliteit van leven als 'het functioneren van personen op fysiek, psychisch en sociaal gebied en de subjectieve evaluatie daarvan'. Daarbij wordt aangegeven dat kwaliteit van leven zowel bestaat uit relatief objectieve als uit een subjectieve aspecten. &#xA;De vragenlijst 'Kwaliteit van Leven bij Hartpatiënten (KVL-H)  bevat 24 vragen die te maken hebben met problemen en gevoelens die mensen met hartproblemen kunnen ervaren (NVVC, 2012). &lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt; &lt;/i&gt;&lt;/font&gt;"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_0D46ED1F_6DD1_43ac_B26B_075654653C2C"/>
+										<UML:TaggedValue tag="date_created" value="2010-06-02 10:00:52"/>
+										<UML:TaggedValue tag="date_modified" value="2015-03-16 07:13:09"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_30BF6065_4760_48e2_BC9C_BE37E22F2469"/>
+										<UML:TaggedValue tag="package_name" value="nl.OD4H.KwaliteitvanLevenmini-v0.4"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="ZelM"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="2"/>
+										<UML:TaggedValue tag="ea_localid" value="4727"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Information Model" xmi.id="EAID_36C8C689_219F_4d17_8996_8B00964E2126" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;Give a very detailed, accurate and complete description of the concepts and codes/values/scores.&lt;/i&gt;&lt;/font&gt;&#xA;&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;Op dit moment is een voorlopige keuze gemaakt om de DCM uit te werken in UML. Dit om een goede aansluiting te hebben met de diverse technische standaarden als openEHR en HL7 v3. Richtlijnen voor een goede uitwerking zijn beschreven in de handleiding ' Ontwikkeling van een DCM' .&lt;/i&gt;&lt;/font&gt;&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;Aandachtspunten hierbij zijn: default values, flavors of null, cardinaliteit en optionaliteit. &lt;/i&gt;&lt;/font&gt;&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;Voor verschillende vergelijkbare instrumenten of observaties kan een UML worden gemaakt welke als ' Pattern' kan worden gebruikt voor de uitwerking van een concrete DCM. Zo is er een pattern ontwikkeld voor 'Assessment scales' . &lt;/i&gt;&lt;/font&gt;&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;Dit hoofdstuk is bedoeld voor de IT en niet voor de zorgprofessionals. Bij het verifiëren van de inhoud van de DCM bij zorgprofessionals wordt dit hoofdstuk niet voorgelegd voor verificatie. Indien het informatiemodel in narrative taal wordt weergegeven kan dit wel met zorgverleners worden doorgenomen.&lt;/i&gt;&lt;/font&gt;&#xA;"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_0D46ED1F_6DD1_43ac_B26B_075654653C2C"/>
+										<UML:TaggedValue tag="date_created" value="2009-07-04 12:17:19"/>
+										<UML:TaggedValue tag="date_modified" value="2010-02-12 13:29:42"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_36C8C689_219F_4d17_8996_8B00964E2126"/>
+										<UML:TaggedValue tag="package_name" value="nl.OD4H.KwaliteitvanLevenmini-v0.4"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="Informatie Model"/>
+										<UML:TaggedValue tag="author" value="ZelM"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="6"/>
+										<UML:TaggedValue tag="ea_localid" value="4732"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Functional Model" xmi.id="EAID_3A431401_196A_45b6_8083_50CD84D810C2" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;Voor de vragenlijst zijn de functionaliteiten horende bij 'CP.3 Manage Clinical Documentation' van belang. Ook alle relaties die behoren tot deze functionaliteiten zijn relevant. &#xA;Noot: CP = Care Provision."/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_0D46ED1F_6DD1_43ac_B26B_075654653C2C"/>
+										<UML:TaggedValue tag="date_created" value="2009-07-04 12:17:21"/>
+										<UML:TaggedValue tag="date_modified" value="2015-03-16 07:18:33"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_3A431401_196A_45b6_8083_50CD84D810C2"/>
+										<UML:TaggedValue tag="package_name" value="nl.OD4H.KwaliteitvanLevenmini-v0.4"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="ZelM"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="15"/>
+										<UML:TaggedValue tag="ea_localid" value="4741"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Traceability to other Standards" xmi.id="EAID_613A0F58_8734_496e_AACE_2675C9D5DFFA" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl&#xA;&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;In de 'Beslisboom Poliklinische Indicatiestelling Hartrevalidatie 2012' is de Vragenlijst Kwaliteit van Leven opgenomen. De vragenlijst kan worden gebruikt bij de indicatiestelling voor hartrevalidatie."/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_0D46ED1F_6DD1_43ac_B26B_075654653C2C"/>
+										<UML:TaggedValue tag="date_created" value="2009-07-04 12:17:23"/>
+										<UML:TaggedValue tag="date_modified" value="2015-03-16 07:18:47"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_613A0F58_8734_496e_AACE_2675C9D5DFFA"/>
+										<UML:TaggedValue tag="package_name" value="nl.OD4H.KwaliteitvanLevenmini-v0.4"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="Traceerbaarheid naar andere standaarden"/>
+										<UML:TaggedValue tag="author" value="ZelM"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="16"/>
+										<UML:TaggedValue tag="ea_localid" value="4742"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Revision History" xmi.id="EAID_73455A33_BA46_4aef_A97A_BB4126606C80" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;In version management describe the following:&lt;/i&gt;&lt;/font&gt;&#xA;&lt;ol&gt;&#xA;	&lt;li&gt;&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;Version number;&lt;/i&gt;&lt;/font&gt;&lt;/li&gt;&#xA;	&lt;li&gt;&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;The date the version is made; the month is written in full text, as shown above. &lt;/i&gt;&lt;/font&gt;&lt;/li&gt;&#xA;	&lt;li&gt;&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;The changes that are made and the reason for the changes;&lt;/i&gt;&lt;/font&gt;&lt;/li&gt;&#xA;	&lt;li&gt;&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;The name and the organisation of the person that made the changes.&lt;/i&gt;&lt;/font&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;font color=&quot;#0f0f0f&quot;&gt;Versie 0.1. Initiele start met fouten in model&lt;/font&gt;&#xA;&lt;font color=&quot;#0f0f0f&quot;&gt;Versie 0.2 fouten hersteld, basis model met totaalscore voor cardio project.&lt;/font&gt;&#xA;&lt;font color=&quot;#0f0f0f&quot;&gt;Versie 0.3 integratie met medisch kennisdeel van OD4H versie van 2013&lt;/font&gt;&#xA;&lt;font color=&quot;#0f0f0f&quot;&gt;Versie 0.4 datatype totaalscore op PQ gezet en Placeholder geplaatst voor toekomstige data voor de score items.&lt;/font&gt;"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_0D46ED1F_6DD1_43ac_B26B_075654653C2C"/>
+										<UML:TaggedValue tag="date_created" value="2010-02-19 17:16:52"/>
+										<UML:TaggedValue tag="date_modified" value="2015-03-16 07:29:41"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_73455A33_BA46_4aef_A97A_BB4126606C80"/>
+										<UML:TaggedValue tag="package_name" value="nl.OD4H.KwaliteitvanLevenmini-v0.4"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="ZelM"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="1"/>
+										<UML:TaggedValue tag="ea_localid" value="4726"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="References" xmi.id="EAID_895567BE_F4BE_4e49_B7B1_858C3AFD9A6F" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;b&gt;Projecten:&lt;/b&gt;&#xA;Open Data 4 Health, onderdeel van Slimmer Leven 2020. Een Coöperative georganiseerde samenwerking binnen Zuidoost-Nederland met Brainport Regio Eindhoven als kern. &#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;b&gt;Literatuur:&lt;/b&gt;&#xA;&lt;ul&gt;&#xA;	&lt;li&gt;Gezondheidsgerelateerde kwaliteit van leven. Geraadpleegd op 14 november 2013, via http://www.nationaalkompas.nl/gezondheid-en-ziekte/functioneren-en-kwaliteit-van-leven/kwaliteit-van-leven/&lt;/li&gt;&#xA;	&lt;li&gt;NVVC-CCPH – Commissie Cardiovasculaire Preventie en Hartrevalidatie; LMDO-H – Landelijk Multidisciplinair Overleg Hartrevalidatie(2012). &lt;i&gt;Beslisboom Poliklinische Indicatiestelling Hartrevalidatie&lt;/i&gt; 2012. Utrecht, NCCV.&lt;/li&gt;&#xA;	&lt;li&gt;NVVC-CCPH (Commissie Cardiovasculaire Preventie en Hartrevalidatie); LMDO-H (Landelijk Multidisciplinair Overleg Hartrevalidatie). (2011).&lt;i&gt; NVVC praktijkrichtlijn hartrevalidatie&lt;/i&gt;. Utrecht, NVVC.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;b&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/b&gt;&lt;/font&gt;&lt;b&gt;Vocabulary:&lt;/b&gt;&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;Hier wordt of worden de vocabulaires, inclusief de OID, genoemd die in de betreffende DCM worden gebruikt, inclusief de release en/of versie. &lt;/i&gt;&lt;/font&gt;"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_0D46ED1F_6DD1_43ac_B26B_075654653C2C"/>
+										<UML:TaggedValue tag="date_created" value="2009-11-01 09:48:35"/>
+										<UML:TaggedValue tag="date_modified" value="2015-03-16 07:18:20"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_895567BE_F4BE_4e49_B7B1_858C3AFD9A6F"/>
+										<UML:TaggedValue tag="package_name" value="nl.OD4H.KwaliteitvanLevenmini-v0.4"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="Referenties"/>
+										<UML:TaggedValue tag="author" value="ZelM"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="14"/>
+										<UML:TaggedValue tag="ea_localid" value="4740"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Example of the Instrument" xmi.id="EAID_9309FF56_CA16_4095_9E4C_C43EE35B8FF4" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;Place a picture of a paper version of the DCM  in this chapter. Of course only if available.&lt;/i&gt;&lt;/font&gt;&#xA;&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;Preferably use a scanned picture of good and readable quality.&lt;/i&gt;&lt;/font&gt;&#xA;&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;Op deze plaats kan een link naar een document gemaakt worden. Dit document kan zijn een geschande versie van de papierenversie van de DCM of een screenshot van een userinterface in een applicatie (niet vergeten toestemming te vragen aan de leverancier). Vermeld bij de referencies de bron.&lt;/i&gt;&lt;/font&gt;&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;Een andere mogelijkheid is het maken van een wireframe (UI Mockup). Het is een ontwerp van de DCM waarbij de verschillende onderdelen worden getoond zonder verdere opmaak.  Het doel is een indruk te geven van hoe de DCM er uit kan zien op een computerscherm.&lt;/i&gt;&lt;/font&gt;&#xA;"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_0D46ED1F_6DD1_43ac_B26B_075654653C2C"/>
+										<UML:TaggedValue tag="date_created" value="2009-07-04 12:17:28"/>
+										<UML:TaggedValue tag="date_modified" value="2011-01-14 10:33:02"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_9309FF56_CA16_4095_9E4C_C43EE35B8FF4"/>
+										<UML:TaggedValue tag="package_name" value="nl.OD4H.KwaliteitvanLevenmini-v0.4"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="Een voorbeeld van het instrument"/>
+										<UML:TaggedValue tag="author" value="ZelM"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="11"/>
+										<UML:TaggedValue tag="ea_localid" value="4737"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Evidence Base" xmi.id="EAID_A6AEC38E_D057_46df_80DB_82467CEE550E" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;Uit beslisboom&lt;/i&gt;&lt;/font&gt;&#xA;Het is aanbevolen om door alle patiënten die in aanmerking komen voor hartrevalidatie in ieder geval&#xA;de fysieke en sociale dimentie van de vragenlijst ‘Kwaliteit van Leven bij Hartpatiënten’ (KVL-H; zie&#xA;bijlage 1) te laten invullen, ten minste 14 dagen na ontslag uit het ziekenhuis, op het moment van (of&#xA;net voor) de indicatiestelling en bij voorkeur voorafgaand aan de inspanningstest. Dit moment geniet&#xA;de voorkeur aangezien het niet zeker is dat de vragenlijst wordt ingevuld als de patiënt deze mee naar&#xA;huis krijgt.&#xA;De KVL-H is een internationaal gevalideerde vragenlijst waarmee zowel de subjectief fysieke,&#xA;psychische, en sociale conditie van de patiënt kan worden bepaald. Uit een analyse van de gegevens van&#xA;meer dan 6000 hartrevalidatiepatiënten is gebleken dat de KVL-H een sensitief instrument is (gevoelig&#xA;voor verandering) (43). Dit maakt de KVL-H geschikt om te gebruiken als evaluatie-instrument. Uit de&#xA;CARDSS-I studie bleek dat dit instrument in de praktijk over het algemeen naar tevredenheid wordt&#xA;gebruikt. Wel wordt aangeraden een andere scoring te hanteren dan voorgesteld in de Beslisboom&#xA;Hartrevalidatie 2004, namelijk de MacNew score (17;44). Hiermee is het ook mogelijk om een score&#xA;te berekenen wanneer de patiënt één of meer vragen niet heeft ingevuld (45) (zie bijlage 1). Op basis&#xA;van de adviesrapportage Psychosociale screening (zie noot 7) is er gekozen om de KVL-H niet meer te&#xA;gebruiken om een inschatting te krijgen van het emotioneel functioneren, maar daarvoor de scores op&#xA;vragenlijsten voor depressie en angst te gebruiken."/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_0D46ED1F_6DD1_43ac_B26B_075654653C2C"/>
+										<UML:TaggedValue tag="date_created" value="2009-07-04 12:17:18"/>
+										<UML:TaggedValue tag="date_modified" value="2015-03-16 07:16:06"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_A6AEC38E_D057_46df_80DB_82467CEE550E"/>
+										<UML:TaggedValue tag="package_name" value="nl.OD4H.KwaliteitvanLevenmini-v0.4"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="Wetenschappelijke onderbouwing"/>
+										<UML:TaggedValue tag="author" value="ZelM"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="5"/>
+										<UML:TaggedValue tag="ea_localid" value="4731"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Instructions" xmi.id="EAID_BCB0162A_6CC4_4a57_82CD_89D2629F1CF0" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl&#xA;&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;Bij alle patiënten dient de fysieke score van de vragenlijst ‘Kwaliteit van Leven bij Hartpatiënten’ (KVL-H)&#xA;gerelateerd te worden aan het objectieve inspanningsvermogen om te bepalen of de patiënt een goede&#xA;inschatting kan maken van het eigen inspanningsvermogen (17). Uit beslisboom bij fysiek functioneren.&#xA;&#xA;Om te bepalen of de patiënt een goede inschatting kan maken van het eigen inspanningsvermogen,&#xA;dient de vragenlijst ‘Kwaliteit van Leven bij Hartpatiënten’ (KVL-H; zie noot 6 en bijlage 1) te worden&#xA;afgenomen. Indien de patiënt op het fysieke deel van de KVL-H hoger scoort dan zou mogen worden&#xA;verwacht op basis van de resultaten van de objectieve inspanningstest is er sprake van een overschatting&#xA;van het inspanningsvermogen. Omgekeerd is er sprake van een angst voor inspanning indien de patiënt&#xA;op het fysieke deel van de KVL-H een lagere score heeft dan op basis van de resultaten van de objectieve&#xA;inspanningstest zou mogen worden verwacht (zie tabel bij vraag 1b in de Beslisboom Hartrevalidatie)."/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_0D46ED1F_6DD1_43ac_B26B_075654653C2C"/>
+										<UML:TaggedValue tag="date_created" value="2009-11-01 09:49:35"/>
+										<UML:TaggedValue tag="date_modified" value="2015-03-16 07:17:16"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_BCB0162A_6CC4_4a57_82CD_89D2629F1CF0"/>
+										<UML:TaggedValue tag="package_name" value="nl.OD4H.KwaliteitvanLevenmini-v0.4"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="Werkwijze"/>
+										<UML:TaggedValue tag="author" value="ZelM"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="8"/>
+										<UML:TaggedValue tag="ea_localid" value="4734"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Issues" xmi.id="EAID_BCC1031F_140E_4616_9B2E_3F430920A8D5" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&#xA;&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;Er zijn auteursrechtelijke beperkingen op het gebruik van de KVL-H. Een licentie voor het gebruik&#xA;van de vragenlijst kan verkregen worden via www.macnew.org. Reproductie van de vragenlijst zonder&#xA;toestemming is verboden. De scoring (hoe de score op de verschillende dimensies berekend wordt) is&#xA;een onderdeel van de licentie en daarom niet afgedrukt in dit document.&#xA;&#xA;Niet alle medische kennis rubrieken zijn uitgewerkt.&#xA;&#xA;De schaal zelf is nog niet gerepresenteerd. "/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_0D46ED1F_6DD1_43ac_B26B_075654653C2C"/>
+										<UML:TaggedValue tag="date_created" value="2009-07-04 12:17:30"/>
+										<UML:TaggedValue tag="date_modified" value="2015-03-16 07:30:16"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_BCC1031F_140E_4616_9B2E_3F430920A8D5"/>
+										<UML:TaggedValue tag="package_name" value="nl.OD4H.KwaliteitvanLevenmini-v0.4"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="Issues en openstaande vragen"/>
+										<UML:TaggedValue tag="author" value="ZelM"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="13"/>
+										<UML:TaggedValue tag="ea_localid" value="4739"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Disclaimer" xmi.id="EAID_C370148E_25C2_428f_8769_8C23F95325BB" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;Fill in the project specific values.&lt;/i&gt;&lt;/font&gt;&#xA;&#xA;&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;(Customer)&lt;/i&gt;&lt;/font&gt; as ordering customer and Results 4 Care B.V. and Parelsnoer as subcontractor give utmost care  to the reliability and timeliness of data in this DCM, Detailed Clinical Model. Errors and inaccuracies may occur.  &lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;(Customer)&lt;/i&gt;&lt;/font&gt;,  Results 4 Care and Parelsnoer are not responsible for damages resulting from errors or inaccuracies in the information, nor for damages arising from problems caused by, or inherent in the spreading of information via the Internet, as failures or interruptions from either errors or delays in the distribution of information or services by Nictiz, Results 4 Care or  Parelsnoer, or form you to &lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;(Customer)&lt;/i&gt;&lt;/font&gt;, Results 4 Care or Paerlsnoer by means of a website from &lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;(Customer)&lt;/i&gt;&lt;/font&gt;, Results 4 Care or Parelsnoer of by e-mail, or otherwise electronically.&#xA;&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;(Customer)&lt;/i&gt;&lt;/font&gt;, Results 4 care and Parelsnoer do not accept responsibility for possible damage suffered as a result of the use of data, advise or ideas provided by or in name of &lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;(Customer)&lt;/i&gt;&lt;/font&gt;, Results 4 Care or Parelsnoer by way of this DCM.  &lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;(Customer) &lt;/i&gt;&lt;/font&gt;does not accept responsibility for the content of information in this DCM to which or from which using a hyperlink or otherwise, is referred.&#xA;&#xA;In case of contradictions in the mentioned DCM documents en files the priority of the relevant documents is stated by the most recent and highest version mentioned in the revision (version management). &#xA;In case information that is included in the electronic version of this DCM is also provided in writing, in case of textual differences the written version will determine. This applies if the version description and date of both are equal. The definitive version has priority over a concept version. A revised version has priority over a previous version.&#xA;&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;Pas de tekst aan, aan het project. &lt;/i&gt;&lt;/font&gt;&#xA;&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;(Naamopdrachtgever hier invoegen)&lt;/i&gt;&lt;/font&gt; als opdrachtgever en Results 4 Care B.V. als uitvoerder besteden de grootst mogelijke zorg aan de betrouwbaarheid en actualiteit van de gegevens in deze DCM. Onjuistheden en onvolledigheden kunnen echter voorkomen. &lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;(De opdrachtgever)&lt;/i&gt;&lt;/font&gt; en Results 4 Care zijn niet aansprakelijk voor schade als gevolg van onjuistheden of onvolledigheden in de aangeboden informatie, noch voor schade die het gevolg is van problemen veroorzaakt door, of inherent aan het verspreiden van informatie via het internet, zoals storingen of onderbrekingen van of fouten of vertraging in het verstrekken van informatie of diensten door &lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;(De opdrachtgever)&lt;/i&gt;&lt;/font&gt; of Results 4 Care, of door U aan &lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;(De opdrachtgever)&lt;/i&gt;&lt;/font&gt; of Results 4 Care via een website van &lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;(De opdrachtgever)&lt;/i&gt;&lt;/font&gt; of Results 4 Care of via e-mail, of anderszins langs elektronische weg. &#xA;&#xA;Tevens aanvaarden &lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;(De opdrachtgever)&lt;/i&gt;&lt;/font&gt; en Results 4 Care geen aansprakelijkheid voor eventuele schade die geleden wordt als gevolg van het gebruik van gegevens, adviezen of ideeën verstrekt door of namens &lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;(De opdrachtgever)&lt;/i&gt;&lt;/font&gt; via deze DCM, Detailed Clinical Model. &lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;(De opdrachtgever)&lt;/i&gt;&lt;/font&gt; aanvaardt geen verantwoordelijkheid voor de inhoud van informatie in deze DCM waarnaar of waarvan met een hyperlink of anderszins wordt verwezen.&#xA;&#xA;In geval van tegenstrijdigheden in de genoemde DCM documenten en bestanden geeft de meest recente en hoogste versie van de vermelde volgorde in de revisies de prioriteit van de desbetreffende documenten weer. &#xA;&#xA;Indien informatie die in de elektronische versie van deze DCM is opgenomen ook schriftelijk wordt verstrekt, zal in geval van tekstverschillen de schriftelijke versie bepalend zijn. Dit geldt indien de versieaanduiding en datering van beiden gelijk is. Een definitieve versie heeft prioriteit echter boven een conceptversie. Een gereviseerde versie heeft prioriteit boven een eerdere versie. &#xA;"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_0D46ED1F_6DD1_43ac_B26B_075654653C2C"/>
+										<UML:TaggedValue tag="date_created" value="2009-11-01 10:06:44"/>
+										<UML:TaggedValue tag="date_modified" value="2009-11-09 13:51:20"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_C370148E_25C2_428f_8769_8C23F95325BB"/>
+										<UML:TaggedValue tag="package_name" value="nl.OD4H.KwaliteitvanLevenmini-v0.4"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="Disclaimer"/>
+										<UML:TaggedValue tag="author" value="ZelM"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="17"/>
+										<UML:TaggedValue tag="ea_localid" value="4743"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Interpretation" xmi.id="EAID_D018A7C3_3FD6_4d17_AE9E_E1433A82F8B7" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;Give a short description of how the results of the scale or the collection of data should be interpreted. Also mention which consequences the result has for patient and care. If needed distinguished to target groups. Also describe how a score is used in the process of the care giving. &lt;/i&gt;&lt;/font&gt;&#xA;&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;If a decision is based directly on the score this can be added here.&lt;/i&gt;&lt;/font&gt;&#xA;&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;Geef een beknopte beschrijving van hoe het resultaat van de schaal of de verzameling van gegevens geïnterpreteerd moet worden. Geef daarnaast aan welke consequenties het resultaat heeft voor patiënt en zorgverlening. Eventueel genuanceerd naar doelgroepen. Beschrijf ook hoe een score gebruikt wordt in het proces van zorg verlenen. &lt;/i&gt;&lt;/font&gt;&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;Als een beslissing direct op een score wordt gebaseerd kan die hier worden toegevoegd. &lt;/i&gt;&lt;/font&gt;&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;b&gt;&lt;i&gt;Bijvoorbeeld&lt;/i&gt;&lt;/b&gt;&lt;i&gt; &lt;/i&gt;&lt;/font&gt;&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;Bij een risico inventarisatie voor decubitus wordt veelal gebruikt gemaakt van een Decubitus risicoscore lijst. Op verschillende items wordt gekeken of dit item voor de patiënt een risico vormt. De somscore zegt iets over de mate van risico welke een patiënt loopt op decubitus. &lt;/i&gt;&lt;/font&gt;&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;Er is een verhoogd risico bij een score &amp;gt; 8. Preciezer: Dit is: &amp;lt;8 niet verhoogd risico, 8-12 verhoogd risico en  &amp;gt; 12 extra verhoogd risico. Aan de somscore kunnen vervolgens verpleegkundige acties worden gepland om decubitus bij de patiënt te voorkomen. &lt;/i&gt;&lt;/font&gt;&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;Ook beslissingen die naar aanleiding van een cluster gegevens kan worden genomen worden in deze paragraaf beschreven. &lt;/i&gt;&lt;/font&gt;&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;Indien het noodzakelijk is de wijze van afleiding mee te sturen in een bericht, kan de somscore, formule of redeneerregels in het attribuut derivationExpression van de observatieklasse worden opgenomen. &lt;/i&gt;&lt;/font&gt;&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;Let er bij het beschrijven van dit hoofdstuk wel op dat het niet te voorschrijvend wordt. Het gaat in de beschrijving in de DCM om een voorbeeld interpretatie niet om de interpretatie bij een individuele patiënt. Geef bijvoorbeeld wel, net als bij bovenstaand voorbeeld, actie grenzen aan. De nadruk ligt op wat het systeem aan interpretatie moet geven. De ICT-er moet kunnen zien wat er opgeslagen en doorgegeven moet worden. Tevens moet er een mogelijkheid zijn om normwaarden in te kunnen voegen.&lt;/i&gt;&lt;/font&gt;&#xA;"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_0D46ED1F_6DD1_43ac_B26B_075654653C2C"/>
+										<UML:TaggedValue tag="date_created" value="2009-07-04 12:17:26"/>
+										<UML:TaggedValue tag="date_modified" value="2009-11-01 10:08:50"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_D018A7C3_3FD6_4d17_AE9E_E1433A82F8B7"/>
+										<UML:TaggedValue tag="package_name" value="nl.OD4H.KwaliteitvanLevenmini-v0.4"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="Interpretatierichtlijnen"/>
+										<UML:TaggedValue tag="author" value="ZelM"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="9"/>
+										<UML:TaggedValue tag="ea_localid" value="4735"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Purpose" xmi.id="EAID_D0398289_D01B_4ed4_A19D_D66E84AEC514" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;Het bepalen van de subjectief fysieke, psychische, en sociale conditie van de patiënt ((NVVC, 2012)."/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_0D46ED1F_6DD1_43ac_B26B_075654653C2C"/>
+										<UML:TaggedValue tag="date_created" value="2009-07-04 12:17:16"/>
+										<UML:TaggedValue tag="date_modified" value="2015-03-16 07:15:23"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_D0398289_D01B_4ed4_A19D_D66E84AEC514"/>
+										<UML:TaggedValue tag="package_name" value="nl.OD4H.KwaliteitvanLevenmini-v0.4"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="Doel"/>
+										<UML:TaggedValue tag="author" value="ZelM"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="3"/>
+										<UML:TaggedValue tag="ea_localid" value="4729"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Example Instances" xmi.id="EAID_E5C86AF5_869B_4353_9A91_72CC4E8F87F6" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;TODO: Translate&lt;/i&gt;&lt;/font&gt;&#xA;&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;In dit hoofdstuk kunnen een aantal voorbeeld scenario's en het gebruik en vulling van de verschillende concepten uit het informatiemodel in de tijd worden gevisualiseerd.&lt;/i&gt;&lt;/font&gt;&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;Dit is dus niet het werkproces, maar juist een voorbeeld van hoe het informatie model er ingevuld uit kan zien in de loop van het proces.&lt;/i&gt;&lt;/font&gt;&#xA;"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_0D46ED1F_6DD1_43ac_B26B_075654653C2C"/>
+										<UML:TaggedValue tag="date_created" value="2010-01-08 13:47:25"/>
+										<UML:TaggedValue tag="date_modified" value="2011-01-14 10:32:50"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_E5C86AF5_869B_4353_9A91_72CC4E8F87F6"/>
+										<UML:TaggedValue tag="package_name" value="nl.OD4H.KwaliteitvanLevenmini-v0.4"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="Voorbeeld scenario"/>
+										<UML:TaggedValue tag="author" value="ZelM"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="7"/>
+										<UML:TaggedValue tag="ea_localid" value="4733"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Constraints" xmi.id="EAID_F6C4EF77_7CB5_4a9c_8511_900D5700A49D" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;TODO: Translate&lt;/i&gt;&lt;/font&gt;&#xA;&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;Indien bij de DCM van toepassing wordt dit hoofdstuk toegevoegd. Het gaat hierbij om een uitwerking van noodzakelijke inperkingen. Deze inperkingen kunnen technische of praktische inperkingen zijn. &lt;/i&gt;&lt;/font&gt;&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;Een voorbeeld bij een praktische inperking is dat bij NDF dataset van diabetes het alleen is toegestaan de bloeddruk zittend te meten.&lt;/i&gt;&lt;/font&gt;&#xA;"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_0D46ED1F_6DD1_43ac_B26B_075654653C2C"/>
+										<UML:TaggedValue tag="date_created" value="2010-02-12 13:38:34"/>
+										<UML:TaggedValue tag="date_modified" value="2011-01-14 10:33:06"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_F6C4EF77_7CB5_4a9c_8511_900D5700A49D"/>
+										<UML:TaggedValue tag="package_name" value="nl.OD4H.KwaliteitvanLevenmini-v0.4"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="Inperkingen"/>
+										<UML:TaggedValue tag="author" value="ZelM"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="12"/>
+										<UML:TaggedValue tag="ea_localid" value="4738"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Copyrights" xmi.id="EAID_F8CA0AAD_BFD3_402b_84E3_30C965EF51D7" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;b&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/b&gt;&lt;/font&gt;&lt;b&gt;Licenties van bronmateriaal&lt;/b&gt;&#xA;Er zijn auteursrechtelijke beperkingen op het gebruik van de KVL-H. Een licentie voor het gebruik&#xA;van de vragenlijst kan verkregen worden via www.macnew.org. Reproductie van de vragenlijst zonder&#xA;toestemming is verboden. "/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_0D46ED1F_6DD1_43ac_B26B_075654653C2C"/>
+										<UML:TaggedValue tag="date_created" value="2010-01-08 13:46:58"/>
+										<UML:TaggedValue tag="date_modified" value="2015-03-16 07:19:54"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_F8CA0AAD_BFD3_402b_84E3_30C965EF51D7"/>
+										<UML:TaggedValue tag="package_name" value="nl.OD4H.KwaliteitvanLevenmini-v0.4"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="Copyrights"/>
+										<UML:TaggedValue tag="author" value="ZelM"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="19"/>
+										<UML:TaggedValue tag="ea_localid" value="4745"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Patient Population" xmi.id="EAID_F9C72D6E_8A57_47fe_9C1A_BC2DFD0C05FF" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;Alle patiënten die in aanmerking komen voor hartrevalidatie (NVVC, 2012). Volgens de Multidisciplinaire richtlijn Hartrevalidatie (2011) zijn dat de volgende diagnosegroepen:&#xA;&lt;ul&gt;&#xA;	&lt;li&gt;Patiënten met een acuut coronair syndroom (ACS), waaronder een acuut myocardinfarct (AMI) en instabiele angina pectoris (IAP);&lt;/li&gt;&#xA;	&lt;li&gt;Patiënten met stabiele angina pectoris (SAP);&lt;/li&gt;&#xA;	&lt;li&gt;Patiënten die een Percutane Coronaire Interventie (PCI) hebben ondergaan;&lt;/li&gt;&#xA;	&lt;li&gt;Patiënten die een omleidingsoperatie (Coronary Artery Bypass Grafting (CABG)) hebben gehad.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;Bij de volgende  patiëntengroepen wordt geadviseerd hartrevalidatie te overwegen (NVVC, 2011):&#xA;&lt;ul&gt;&#xA;	&lt;li&gt;Patiënten met hartfalen;&lt;/li&gt;&#xA;	&lt;li&gt;Patiënten met een aangeboren hartafwijking;&lt;/li&gt;&#xA;	&lt;li&gt;Patiënten die een harttransplantatie hebben ondergaan;&lt;/li&gt;&#xA;	&lt;li&gt;Patiënten die een hartklepoperatie hebben ondergaan;&lt;/li&gt;&#xA;	&lt;li&gt;Patiënten die een ICD (Implantable Cardioverter Defibrillator) of een pacemaker hebben gekregen;&lt;/li&gt;&#xA;	&lt;li&gt;Patiënten met (behandelde) ritmestoornissen;&lt;/li&gt;&#xA;	&lt;li&gt;Patiënten met atypische thoracale pijnklachten (hartangst);&lt;/li&gt;&#xA;	&lt;li&gt;Patiënten die een reanimatie hebben doorgemaakt;&lt;/li&gt;&#xA;	&lt;li&gt;Patiënten met overige cardiothoracale chirurgische ingrepen.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_0D46ED1F_6DD1_43ac_B26B_075654653C2C"/>
+										<UML:TaggedValue tag="date_created" value="2010-02-05 10:23:25"/>
+										<UML:TaggedValue tag="date_modified" value="2015-03-16 07:15:52"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_F9C72D6E_8A57_47fe_9C1A_BC2DFD0C05FF"/>
+										<UML:TaggedValue tag="package_name" value="nl.OD4H.KwaliteitvanLevenmini-v0.4"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="Groep cliënten"/>
+										<UML:TaggedValue tag="author" value="ZelM"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="4"/>
+										<UML:TaggedValue tag="ea_localid" value="4730"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+							</UML:Namespace.ownedElement>
+							<UML:Collaboration.interaction/>
+						</UML:Collaboration>
+						<UML:Comment xmi.id="EAID_7E6E9D93_064B_4b42_B81C_6735EEDC68F5" visibility="public" namespace="EAPK_0D46ED1F_6DD1_43ac_B26B_075654653C2C">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="&lt;b&gt;To get started:&lt;/b&gt;&#xA;&lt;ol&gt;&#xA;	&lt;li&gt;Fill in all required tags, that are all the tags with a '*' as value.&lt;/li&gt;&#xA;	&lt;li&gt;Replace or remove all package notes with the real content. At least the required packages (see below)&lt;/li&gt;&#xA;	&lt;li&gt;Create the Information Model &amp;amp; optionally Example Instances&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&#xA;&lt;b&gt;Required packages:&lt;/b&gt;&#xA;&lt;ul&gt;&#xA;	&lt;li&gt;Revision History&lt;/li&gt;&#xA;	&lt;li&gt;Concept&lt;/li&gt;&#xA;	&lt;li&gt;Purpose&lt;/li&gt;&#xA;	&lt;li&gt;Evidence Base&lt;/li&gt;&#xA;	&lt;li&gt;Information Model&lt;/li&gt;&#xA;	&lt;li&gt;Instructions&lt;/li&gt;&#xA;	&lt;li&gt;Interpretation&lt;/li&gt;&#xA;	&lt;li&gt;Disclaimer&lt;/li&gt;&#xA;	&lt;li&gt;Copyrights&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;"/>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Text"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="package" value="EAPK_0D46ED1F_6DD1_43ac_B26B_075654653C2C"/>
+								<UML:TaggedValue tag="date_created" value="2011-01-14 10:37:55"/>
+								<UML:TaggedValue tag="date_modified" value="2011-01-14 10:41:27"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="nl.OD4H.KwaliteitvanLevenmini-v0.4"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="ZelM"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="12711"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=0;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Comment>
+						<UML:Package name="Revision History" xmi.id="EAPK_73455A33_BA46_4aef_A97A_BB4126606C80" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;In version management describe the following:&lt;/i&gt;&lt;/font&gt;&#xA;&lt;ol&gt;&#xA;	&lt;li&gt;&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;Version number;&lt;/i&gt;&lt;/font&gt;&lt;/li&gt;&#xA;	&lt;li&gt;&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;The date the version is made; the month is written in full text, as shown above. &lt;/i&gt;&lt;/font&gt;&lt;/li&gt;&#xA;	&lt;li&gt;&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;The changes that are made and the reason for the changes;&lt;/i&gt;&lt;/font&gt;&lt;/li&gt;&#xA;	&lt;li&gt;&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;The name and the organisation of the person that made the changes.&lt;/i&gt;&lt;/font&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;font color=&quot;#0f0f0f&quot;&gt;Versie 0.1. Initiele start met fouten in model&lt;/font&gt;&#xA;&lt;font color=&quot;#0f0f0f&quot;&gt;Versie 0.2 fouten hersteld, basis model met totaalscore voor cardio project.&lt;/font&gt;&#xA;&lt;font color=&quot;#0f0f0f&quot;&gt;Versie 0.3 integratie met medisch kennisdeel van OD4H versie van 2013&lt;/font&gt;&#xA;&lt;font color=&quot;#0f0f0f&quot;&gt;Versie 0.4 datatype totaalscore op PQ gezet en Placeholder geplaatst voor toekomstige data voor de score items.&lt;/font&gt;"/>
+								<UML:TaggedValue tag="parent" value="EAPK_0D46ED1F_6DD1_43ac_B26B_075654653C2C"/>
+								<UML:TaggedValue tag="created" value="2010-02-19 00:00:00"/>
+								<UML:TaggedValue tag="modified" value="2010-02-19 00:00:00"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2015-03-15 17:16:41"/>
+								<UML:TaggedValue tag="lastsavedate" value="2015-03-15 17:16:41"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="1"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="ZelM"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Concept" xmi.id="EAPK_30BF6065_4760_48e2_BC9C_BE37E22F2469" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;Put the description and the definition of the concept here.&lt;/i&gt;&lt;/font&gt;&#xA;&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;font color=&quot;#0f0f0f&quot;&gt;Totaalscore kwaliteit van levenschaal zoals gebruikt voor SmartCare.&lt;/font&gt;&#xA;&lt;font color=&quot;#0f0f0f&quot;&gt;&#xA;&lt;/font&gt;Het Nationaal Kompas Volksgezondheid (2013) omschrijft Kwaliteit van leven als 'het functioneren van personen op fysiek, psychisch en sociaal gebied en de subjectieve evaluatie daarvan'. Daarbij wordt aangegeven dat kwaliteit van leven zowel bestaat uit relatief objectieve als uit een subjectieve aspecten. &#xA;De vragenlijst 'Kwaliteit van Leven bij Hartpatiënten (KVL-H)  bevat 24 vragen die te maken hebben met problemen en gevoelens die mensen met hartproblemen kunnen ervaren (NVVC, 2012). &lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt; &lt;/i&gt;&lt;/font&gt;"/>
+								<UML:TaggedValue tag="parent" value="EAPK_0D46ED1F_6DD1_43ac_B26B_075654653C2C"/>
+								<UML:TaggedValue tag="created" value="2010-06-02 00:00:00"/>
+								<UML:TaggedValue tag="modified" value="2010-06-02 00:00:00"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2015-03-15 17:16:41"/>
+								<UML:TaggedValue tag="lastsavedate" value="2015-03-15 17:16:41"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="2"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="ZelM"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Mindmap" xmi.id="EAPK_2D0C645E_E50C_4343_9F42_FD670B59460E" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;TODO: Translate&lt;/i&gt;&lt;/font&gt;&#xA;&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;Een eerste voorbeeld van een mindmap betreffende een concept kan meerdere DCMs omvatten. Bijvoorbeeld Vitale functies bevat, hartslag, ademhaling,bloeddruk en lichaamstemperatuur.&lt;/i&gt;&lt;/font&gt;&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;Een tweede voorbeeld van een mindmap betreft een enkele DCM, bijvoorbeeld die van ademhaling.&lt;/i&gt;&lt;/font&gt;&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;Het tweede voorbeeld is onderdeel van de DCM Ademhaling.&lt;/i&gt;&lt;/font&gt;&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;Een mindmap kan gemaakt worden in EA, maar ook in een ander programma. Een plaatje van de mindmap wordt dan aan de DCM toegevoegd.&lt;/i&gt;&lt;/font&gt;&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;Meer over het maken van een mindmap in de handleiding ' Ontwikkeling van een DCM'. &lt;/i&gt;&lt;/font&gt;&#xA;"/>
+								<UML:TaggedValue tag="parent" value="EAPK_0D46ED1F_6DD1_43ac_B26B_075654653C2C"/>
+								<UML:TaggedValue tag="created" value="2009-07-04 12:17:14"/>
+								<UML:TaggedValue tag="modified" value="2010-07-02 09:18:07"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2009-07-04 12:17:15"/>
+								<UML:TaggedValue tag="lastsavedate" value="2009-07-04 12:17:14"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="3"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="ZelM"/>
+								<UML:TaggedValue tag="alias" value="Mindmap"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Purpose" xmi.id="EAPK_D0398289_D01B_4ed4_A19D_D66E84AEC514" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;Het bepalen van de subjectief fysieke, psychische, en sociale conditie van de patiënt ((NVVC, 2012)."/>
+								<UML:TaggedValue tag="parent" value="EAPK_0D46ED1F_6DD1_43ac_B26B_075654653C2C"/>
+								<UML:TaggedValue tag="created" value="2009-07-04 12:17:16"/>
+								<UML:TaggedValue tag="modified" value="2009-07-04 12:17:16"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2009-07-04 12:17:16"/>
+								<UML:TaggedValue tag="lastsavedate" value="2009-07-04 12:17:16"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="3"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="ZelM"/>
+								<UML:TaggedValue tag="alias" value="Doel"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Patient Population" xmi.id="EAPK_F9C72D6E_8A57_47fe_9C1A_BC2DFD0C05FF" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;Alle patiënten die in aanmerking komen voor hartrevalidatie (NVVC, 2012). Volgens de Multidisciplinaire richtlijn Hartrevalidatie (2011) zijn dat de volgende diagnosegroepen:&#xA;&lt;ul&gt;&#xA;	&lt;li&gt;Patiënten met een acuut coronair syndroom (ACS), waaronder een acuut myocardinfarct (AMI) en instabiele angina pectoris (IAP);&lt;/li&gt;&#xA;	&lt;li&gt;Patiënten met stabiele angina pectoris (SAP);&lt;/li&gt;&#xA;	&lt;li&gt;Patiënten die een Percutane Coronaire Interventie (PCI) hebben ondergaan;&lt;/li&gt;&#xA;	&lt;li&gt;Patiënten die een omleidingsoperatie (Coronary Artery Bypass Grafting (CABG)) hebben gehad.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;Bij de volgende  patiëntengroepen wordt geadviseerd hartrevalidatie te overwegen (NVVC, 2011):&#xA;&lt;ul&gt;&#xA;	&lt;li&gt;Patiënten met hartfalen;&lt;/li&gt;&#xA;	&lt;li&gt;Patiënten met een aangeboren hartafwijking;&lt;/li&gt;&#xA;	&lt;li&gt;Patiënten die een harttransplantatie hebben ondergaan;&lt;/li&gt;&#xA;	&lt;li&gt;Patiënten die een hartklepoperatie hebben ondergaan;&lt;/li&gt;&#xA;	&lt;li&gt;Patiënten die een ICD (Implantable Cardioverter Defibrillator) of een pacemaker hebben gekregen;&lt;/li&gt;&#xA;	&lt;li&gt;Patiënten met (behandelde) ritmestoornissen;&lt;/li&gt;&#xA;	&lt;li&gt;Patiënten met atypische thoracale pijnklachten (hartangst);&lt;/li&gt;&#xA;	&lt;li&gt;Patiënten die een reanimatie hebben doorgemaakt;&lt;/li&gt;&#xA;	&lt;li&gt;Patiënten met overige cardiothoracale chirurgische ingrepen.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;"/>
+								<UML:TaggedValue tag="parent" value="EAPK_0D46ED1F_6DD1_43ac_B26B_075654653C2C"/>
+								<UML:TaggedValue tag="created" value="2010-02-05 00:00:00"/>
+								<UML:TaggedValue tag="modified" value="2011-01-14 08:56:27"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2015-03-15 17:16:41"/>
+								<UML:TaggedValue tag="lastsavedate" value="2015-03-15 17:16:41"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="4"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="ZelM"/>
+								<UML:TaggedValue tag="alias" value="Groep cliënten"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Evidence Base" xmi.id="EAPK_A6AEC38E_D057_46df_80DB_82467CEE550E" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;Uit beslisboom&lt;/i&gt;&lt;/font&gt;&#xA;Het is aanbevolen om door alle patiënten die in aanmerking komen voor hartrevalidatie in ieder geval&#xA;de fysieke en sociale dimentie van de vragenlijst ‘Kwaliteit van Leven bij Hartpatiënten’ (KVL-H; zie&#xA;bijlage 1) te laten invullen, ten minste 14 dagen na ontslag uit het ziekenhuis, op het moment van (of&#xA;net voor) de indicatiestelling en bij voorkeur voorafgaand aan de inspanningstest. Dit moment geniet&#xA;de voorkeur aangezien het niet zeker is dat de vragenlijst wordt ingevuld als de patiënt deze mee naar&#xA;huis krijgt.&#xA;De KVL-H is een internationaal gevalideerde vragenlijst waarmee zowel de subjectief fysieke,&#xA;psychische, en sociale conditie van de patiënt kan worden bepaald. Uit een analyse van de gegevens van&#xA;meer dan 6000 hartrevalidatiepatiënten is gebleken dat de KVL-H een sensitief instrument is (gevoelig&#xA;voor verandering) (43). Dit maakt de KVL-H geschikt om te gebruiken als evaluatie-instrument. Uit de&#xA;CARDSS-I studie bleek dat dit instrument in de praktijk over het algemeen naar tevredenheid wordt&#xA;gebruikt. Wel wordt aangeraden een andere scoring te hanteren dan voorgesteld in de Beslisboom&#xA;Hartrevalidatie 2004, namelijk de MacNew score (17;44). Hiermee is het ook mogelijk om een score&#xA;te berekenen wanneer de patiënt één of meer vragen niet heeft ingevuld (45) (zie bijlage 1). Op basis&#xA;van de adviesrapportage Psychosociale screening (zie noot 7) is er gekozen om de KVL-H niet meer te&#xA;gebruiken om een inschatting te krijgen van het emotioneel functioneren, maar daarvoor de scores op&#xA;vragenlijsten voor depressie en angst te gebruiken."/>
+								<UML:TaggedValue tag="parent" value="EAPK_0D46ED1F_6DD1_43ac_B26B_075654653C2C"/>
+								<UML:TaggedValue tag="created" value="2009-07-04 12:17:18"/>
+								<UML:TaggedValue tag="modified" value="2009-07-04 12:17:18"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2009-07-04 12:17:18"/>
+								<UML:TaggedValue tag="lastsavedate" value="2009-07-04 12:17:18"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="5"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="ZelM"/>
+								<UML:TaggedValue tag="alias" value="Wetenschappelijke onderbouwing"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Information Model" xmi.id="EAPK_36C8C689_219F_4d17_8996_8B00964E2126" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;Give a very detailed, accurate and complete description of the concepts and codes/values/scores.&lt;/i&gt;&lt;/font&gt;&#xA;&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;Op dit moment is een voorlopige keuze gemaakt om de DCM uit te werken in UML. Dit om een goede aansluiting te hebben met de diverse technische standaarden als openEHR en HL7 v3. Richtlijnen voor een goede uitwerking zijn beschreven in de handleiding ' Ontwikkeling van een DCM' .&lt;/i&gt;&lt;/font&gt;&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;Aandachtspunten hierbij zijn: default values, flavors of null, cardinaliteit en optionaliteit. &lt;/i&gt;&lt;/font&gt;&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;Voor verschillende vergelijkbare instrumenten of observaties kan een UML worden gemaakt welke als ' Pattern' kan worden gebruikt voor de uitwerking van een concrete DCM. Zo is er een pattern ontwikkeld voor 'Assessment scales' . &lt;/i&gt;&lt;/font&gt;&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;Dit hoofdstuk is bedoeld voor de IT en niet voor de zorgprofessionals. Bij het verifiëren van de inhoud van de DCM bij zorgprofessionals wordt dit hoofdstuk niet voorgelegd voor verificatie. Indien het informatiemodel in narrative taal wordt weergegeven kan dit wel met zorgverleners worden doorgenomen.&lt;/i&gt;&lt;/font&gt;&#xA;"/>
+								<UML:TaggedValue tag="parent" value="EAPK_0D46ED1F_6DD1_43ac_B26B_075654653C2C"/>
+								<UML:TaggedValue tag="created" value="2009-07-04 12:17:19"/>
+								<UML:TaggedValue tag="modified" value="2009-07-04 12:17:19"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2009-07-04 12:17:20"/>
+								<UML:TaggedValue tag="lastsavedate" value="2009-07-04 12:17:19"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="6"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="ZelM"/>
+								<UML:TaggedValue tag="alias" value="Informatie Model"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement>
+								<UML:Class name="KwaliteitvanLevenContainer" xmi.id="EAID_11A1944A_3608_433f_AE5B_0FF00C5F3036" visibility="public" namespace="EAPK_36C8C689_219F_4d17_8996_8B00964E2126" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="container"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_36C8C689_219F_4d17_8996_8B00964E2126"/>
+										<UML:TaggedValue tag="date_created" value="2015-03-15 17:20:58"/>
+										<UML:TaggedValue tag="date_modified" value="2015-03-15 17:21:15"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Information Model"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Results4Care"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="container"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="12737"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={B2DBEA07-F0A0-49f2-8A11-4287CF198A56}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=container;GUID={54552629-E611-4b0f-A6F9-274222E4F3ED};@ENDSTEREO;$DES;$CLT={11A1944A-3608-433f-AE5B-0FF00C5F3036}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+								<UML:Association xmi.id="EAID_BED12AC4_A297_4015_B676_08FB67CD0DFD" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="style" value="3"/>
+										<UML:TaggedValue tag="ea_type" value="Aggregation"/>
+										<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+										<UML:TaggedValue tag="linemode" value="3"/>
+										<UML:TaggedValue tag="linecolor" value="-1"/>
+										<UML:TaggedValue tag="linewidth" value="0"/>
+										<UML:TaggedValue tag="seqno" value="0"/>
+										<UML:TaggedValue tag="subtype" value="Strong"/>
+										<UML:TaggedValue tag="headStyle" value="0"/>
+										<UML:TaggedValue tag="lineStyle" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="9890"/>
+										<UML:TaggedValue tag="ea_sourceName" value="KwaliteitvanLevenContainer"/>
+										<UML:TaggedValue tag="ea_targetName" value="KwaliteitvanLeven"/>
+										<UML:TaggedValue tag="ea_sourceType" value="Class"/>
+										<UML:TaggedValue tag="ea_targetType" value="Class"/>
+										<UML:TaggedValue tag="ea_sourceID" value="12737"/>
+										<UML:TaggedValue tag="ea_targetID" value="12733"/>
+										<UML:TaggedValue tag="virtualInheritance" value="0"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Association.connection>
+										<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_11A1944A_3608_433f_AE5B_0FF00C5F3036">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="containment" value="Unspecified"/>
+												<UML:TaggedValue tag="sourcestyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+												<UML:TaggedValue tag="ea_end" value="source"/>
+											</UML:ModelElement.taggedValue>
+										</UML:AssociationEnd>
+										<UML:AssociationEnd visibility="public" aggregation="composite" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_7EFE7104_778B_4080_8078_B4C52FBC530C">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="containment" value="Unspecified"/>
+												<UML:TaggedValue tag="deststyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+												<UML:TaggedValue tag="ea_end" value="target"/>
+											</UML:ModelElement.taggedValue>
+										</UML:AssociationEnd>
+									</UML:Association.connection>
+								</UML:Association>
+								<UML:Association xmi.id="EAID_DE4BCA76_A549_4611_BEFD_E818BC27939D" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="style" value="3"/>
+										<UML:TaggedValue tag="ea_type" value="Aggregation"/>
+										<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+										<UML:TaggedValue tag="linemode" value="3"/>
+										<UML:TaggedValue tag="linecolor" value="-1"/>
+										<UML:TaggedValue tag="linewidth" value="0"/>
+										<UML:TaggedValue tag="seqno" value="0"/>
+										<UML:TaggedValue tag="subtype" value="Strong"/>
+										<UML:TaggedValue tag="headStyle" value="0"/>
+										<UML:TaggedValue tag="lineStyle" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="9907"/>
+										<UML:TaggedValue tag="ea_sourceName" value="Placeholder voor volledige uitwerking later"/>
+										<UML:TaggedValue tag="ea_targetName" value="KwaliteitvanLevenContainer"/>
+										<UML:TaggedValue tag="ea_sourceType" value="Class"/>
+										<UML:TaggedValue tag="ea_targetType" value="Class"/>
+										<UML:TaggedValue tag="ea_sourceID" value="12825"/>
+										<UML:TaggedValue tag="ea_targetID" value="12737"/>
+										<UML:TaggedValue tag="virtualInheritance" value="0"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Association.connection>
+										<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_C812692F_911C_499f_A394_B900B83AC66B">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="containment" value="Unspecified"/>
+												<UML:TaggedValue tag="sourcestyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+												<UML:TaggedValue tag="ea_end" value="source"/>
+											</UML:ModelElement.taggedValue>
+										</UML:AssociationEnd>
+										<UML:AssociationEnd visibility="public" aggregation="composite" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_11A1944A_3608_433f_AE5B_0FF00C5F3036">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="containment" value="Unspecified"/>
+												<UML:TaggedValue tag="deststyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+												<UML:TaggedValue tag="ea_end" value="target"/>
+											</UML:ModelElement.taggedValue>
+										</UML:AssociationEnd>
+									</UML:Association.connection>
+								</UML:Association>
+								<UML:Class name="KwaliteitvanLeven" xmi.id="EAID_7EFE7104_778B_4080_8078_B4C52FBC530C" visibility="public" namespace="EAPK_36C8C689_219F_4d17_8996_8B00964E2126" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="rootconcept"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_36C8C689_219F_4d17_8996_8B00964E2126"/>
+										<UML:TaggedValue tag="date_created" value="2010-01-08 13:55:16"/>
+										<UML:TaggedValue tag="date_modified" value="2015-03-15 17:20:17"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Information Model"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="ZelM"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="rootconcept"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="12733"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=3;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={952CB84E-BF08-432c-8999-CAF50347CDF3}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=rootconcept;GUID={FF7F2377-ADFA-4355-9F4E-BA247373D156};@ENDSTEREO;$DES;$CLT={7EFE7104-778B-4080-8078-B4C52FBC530C}$CLT;$ENDXREF;$XREFPROP=$XID={C30A0CAF-BACD-4542-93C5-FF8B3F8459FD}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=isActive@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={7EFE7104-778B-4080-8078-B4C52FBC530C}$CLT;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+								<UML:Association xmi.id="EAID_38DF4FE2_DBB1_4075_984A_A586D0001EC0" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="style" value="3"/>
+										<UML:TaggedValue tag="ea_type" value="Aggregation"/>
+										<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+										<UML:TaggedValue tag="linemode" value="3"/>
+										<UML:TaggedValue tag="linecolor" value="-1"/>
+										<UML:TaggedValue tag="linewidth" value="0"/>
+										<UML:TaggedValue tag="seqno" value="0"/>
+										<UML:TaggedValue tag="subtype" value="Strong"/>
+										<UML:TaggedValue tag="headStyle" value="0"/>
+										<UML:TaggedValue tag="lineStyle" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="9888"/>
+										<UML:TaggedValue tag="ea_sourceName" value="KwaliteitvanLevenTotaalscore"/>
+										<UML:TaggedValue tag="ea_targetName" value="KwaliteitvanLeven"/>
+										<UML:TaggedValue tag="ea_sourceType" value="Class"/>
+										<UML:TaggedValue tag="ea_targetType" value="Class"/>
+										<UML:TaggedValue tag="ea_sourceID" value="12732"/>
+										<UML:TaggedValue tag="ea_targetID" value="12733"/>
+										<UML:TaggedValue tag="$ea_src_xref_property" value="$XREFPROP=$XID={52EF8FCB-869E-4bb6-B07F-24B9C815D2C3}$XID;$NAM=CustomProperties$NAM;$TYP=connectorSrcEnd property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=isComposite@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;@PROP=@NAME=isDerivedUnion@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=false@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;@PROP=@NAME=default@ENDNAME;@TYPE=String@ENDTYPE;@VALU=@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;@PROP=@NAME=isReadOnly@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=false@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;@PROP=@NAME=isDerived@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=false@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;@PROP=@NAME=aggregation@ENDNAME;@TYPE=AggregationKind@ENDTYPE;@VALU=none@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={38DF4FE2-DBB1-4075-984A-A586D0001EC0}$CLT;$ENDXREF;"/>
+										<UML:TaggedValue tag="$ea_dst_xref_property" value="$XREFPROP=$XID={67AFF614-6CC4-4d47-9E2D-108EF177FEE1}$XID;$NAM=CustomProperties$NAM;$TYP=connectorDestEnd property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=isComposite@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;@PROP=@NAME=isDerivedUnion@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=false@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;@PROP=@NAME=default@ENDNAME;@TYPE=String@ENDTYPE;@VALU=@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;@PROP=@NAME=isReadOnly@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=false@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;@PROP=@NAME=isDerived@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=false@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;@PROP=@NAME=aggregation@ENDNAME;@TYPE=AggregationKind@ENDTYPE;@VALU=none@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={38DF4FE2-DBB1-4075-984A-A586D0001EC0}$CLT;$ENDXREF;"/>
+										<UML:TaggedValue tag="virtualInheritance" value="0"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Association.connection>
+										<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_ED670827_EAEB_4f5c_87F9_48AEE72A52F2">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="containment" value="Unspecified"/>
+												<UML:TaggedValue tag="sourcestyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+												<UML:TaggedValue tag="ea_end" value="source"/>
+											</UML:ModelElement.taggedValue>
+										</UML:AssociationEnd>
+										<UML:AssociationEnd visibility="public" aggregation="composite" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_7EFE7104_778B_4080_8078_B4C52FBC530C">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="containment" value="Unspecified"/>
+												<UML:TaggedValue tag="deststyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+												<UML:TaggedValue tag="ea_end" value="target"/>
+											</UML:ModelElement.taggedValue>
+										</UML:AssociationEnd>
+									</UML:Association.connection>
+								</UML:Association>
+								<UML:Comment name="Legend" xmi.id="EAID_BABF4B20_52D1_4ae7_A8F3_B46E899413E8" visibility="public" namespace="EAPK_36C8C689_219F_4d17_8996_8B00964E2126">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Text"/>
+										<UML:TaggedValue tag="ea_ntype" value="76"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_36C8C689_219F_4d17_8996_8B00964E2126"/>
+										<UML:TaggedValue tag="date_created" value="2011-01-14 08:33:18"/>
+										<UML:TaggedValue tag="date_modified" value="2011-01-14 08:40:59"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Information Model"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="ZelM"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="12734"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={E3A57BE2-09C9-49f8-A804-254629AE4964}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=rootconcept@ENDNAME;@TYPE=LEGEND_OBJECTSTYLE@ENDTYPE;@VALU=#Back_Ground_Color#=16777215;#Pen_Color#=0;#Pen_Size#=3;#Legend_Type#=LEGEND_OBJECTSTYLE;@ENDVALU;@PRMT=0@ENDPRMT;@ENDPROP;@PROP=@NAME=data@ENDNAME;@TYPE=LEGEND_OBJECTSTYLE@ENDTYPE;@VALU=#Back_Ground_Color#=15780518;#Pen_Color#=0;#Pen_Size#=1;#Legend_Type#=LEGEND_OBJECTSTYLE;@ENDVALU;@PRMT=1@ENDPRMT;@ENDPROP;@PROP=@NAME=qualifier@ENDNAME;@TYPE=LEGEND_OBJECTSTYLE@ENDTYPE;@VALU=#Back_Ground_Color#=10551295;#Pen_Color#=0;#Pen_Size#=1;#Legend_Type#=LEGEND_OBJECTSTYLE;@ENDVALU;@PRMT=2@ENDPRMT;@ENDPROP;@PROP=@NAME=state@ENDNAME;@TYPE=LEGEND_OBJECTSTYLE@ENDTYPE;@VALU=#Back_Ground_Color#=12639424;#Pen_Color#=0;#Pen_Size#=1;#Legend_Type#=LEGEND_OBJECTSTYLE;@ENDVALU;@PRMT=3@ENDPRMT;@ENDPROP;@PROP=@NAME=Legend@ENDNAME;@TYPE=LEGEND_STYLE_SETTINGS@ENDTYPE;@VALU=#TITLE#=Legend;#HEADINGSIZE#=16;#FONTCOLOR#=6303744;#BACKGROUNDCOLOR#=13741727;#BORDERCOLOR#=12754832;#BACKGROUNDISDEFAULT#=1;@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={BABF4B20-52D1-4ae7-A8F3-B46E899413E8}$CLT;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Comment>
+								<UML:Class name="Placeholder voor volledige uitwerking later" xmi.id="EAID_C812692F_911C_499f_A394_B900B83AC66B" visibility="public" namespace="EAPK_36C8C689_219F_4d17_8996_8B00964E2126" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="data"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_36C8C689_219F_4d17_8996_8B00964E2126"/>
+										<UML:TaggedValue tag="date_created" value="2015-03-16 07:21:10"/>
+										<UML:TaggedValue tag="date_modified" value="2015-03-16 07:21:30"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Information Model"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Results4Care"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="data"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="12825"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={958BFD96-F292-48b5-88A5-36D5AF8B0A07}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=data;GUID={7982D69C-7F38-491f-9B8E-62E7F7AABB98};@ENDSTEREO;$DES;$CLT={C812692F-911C-499f-A394-B900B83AC66B}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+								<UML:Generalization subtype="EAID_C812692F_911C_499f_A394_B900B83AC66B" supertype="EAID_FA92CB33_6CA4_4c65_9339_687DFAD179D5" xmi.id="EAID_7402FAF6_9912_44d3_A20F_5D7246A81B0C" visibility="public">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="style" value="3"/>
+										<UML:TaggedValue tag="ea_type" value="Generalization"/>
+										<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+										<UML:TaggedValue tag="linemode" value="3"/>
+										<UML:TaggedValue tag="linecolor" value="-1"/>
+										<UML:TaggedValue tag="linewidth" value="0"/>
+										<UML:TaggedValue tag="seqno" value="0"/>
+										<UML:TaggedValue tag="headStyle" value="0"/>
+										<UML:TaggedValue tag="lineStyle" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="9908"/>
+										<UML:TaggedValue tag="ea_sourceName" value="Placeholder voor volledige uitwerking later"/>
+										<UML:TaggedValue tag="ea_targetName" value="CD"/>
+										<UML:TaggedValue tag="ea_sourceType" value="Class"/>
+										<UML:TaggedValue tag="ea_targetType" value="Class"/>
+										<UML:TaggedValue tag="ea_sourceID" value="12825"/>
+										<UML:TaggedValue tag="ea_targetID" value="24"/>
+										<UML:TaggedValue tag="src_visibility" value="Public"/>
+										<UML:TaggedValue tag="src_aggregation" value="0"/>
+										<UML:TaggedValue tag="src_isOrdered" value="false"/>
+										<UML:TaggedValue tag="src_targetScope" value="instance"/>
+										<UML:TaggedValue tag="src_changeable" value="none"/>
+										<UML:TaggedValue tag="src_isNavigable" value="false"/>
+										<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+										<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+										<UML:TaggedValue tag="dst_visibility" value="Public"/>
+										<UML:TaggedValue tag="dst_aggregation" value="0"/>
+										<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+										<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+										<UML:TaggedValue tag="dst_changeable" value="none"/>
+										<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+										<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+										<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+										<UML:TaggedValue tag="virtualInheritance" value="0"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Generalization>
+								<UML:Comment xmi.id="EAID_C94ADFE5_B001_40cb_A1C7_6BB160495D90" visibility="public" namespace="EAPK_36C8C689_219F_4d17_8996_8B00964E2126">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Text"/>
+										<UML:TaggedValue tag="ea_ntype" value="18"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_36C8C689_219F_4d17_8996_8B00964E2126"/>
+										<UML:TaggedValue tag="date_created" value="2010-01-08 13:55:06"/>
+										<UML:TaggedValue tag="date_modified" value="2010-01-08 13:55:07"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Information Model"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="ZelM"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="12735"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Comment>
+								<UML:Class name="KwaliteitvanLevenTotaalscore" xmi.id="EAID_ED670827_EAEB_4f5c_87F9_48AEE72A52F2" visibility="public" namespace="EAPK_36C8C689_219F_4d17_8996_8B00964E2126" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="data"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_36C8C689_219F_4d17_8996_8B00964E2126"/>
+										<UML:TaggedValue tag="date_created" value="2010-01-08 13:56:24"/>
+										<UML:TaggedValue tag="date_modified" value="2015-03-15 17:21:29"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Information Model"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="ZelM"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="data"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="12732"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={19E4DCC5-3C79-4f5b-A9F8-BD1F8DE58ECA}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=data;GUID={6BC5D60E-96B6-443e-9F29-8DCC3C9F3797};@ENDSTEREO;@STEREO;Name=enumeration;GUID={D48F3F0E-C063-433f-BFC2-0142250C0079};FQName=EAUML::enumeration;@ENDSTEREO;$DES;$CLT={ED670827-EAEB-4f5c-87F9-48AEE72A52F2}$CLT;$ENDXREF;$XREFPROP=$XID={17841022-EE1A-4bc8-8F05-60FC7E785E1B}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=isActive@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={ED670827-EAEB-4f5c-87F9-48AEE72A52F2}$CLT;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+								<UML:Generalization subtype="EAID_ED670827_EAEB_4f5c_87F9_48AEE72A52F2" supertype="EAID_47741A68_C41C_4203_9178_E3B577A337C8" xmi.id="EAID_2F9610E5_387A_4dc8_9B76_1CD53B6DC17B" visibility="public">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="style" value="3"/>
+										<UML:TaggedValue tag="ea_type" value="Generalization"/>
+										<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+										<UML:TaggedValue tag="linemode" value="3"/>
+										<UML:TaggedValue tag="linecolor" value="-1"/>
+										<UML:TaggedValue tag="linewidth" value="0"/>
+										<UML:TaggedValue tag="seqno" value="0"/>
+										<UML:TaggedValue tag="headStyle" value="0"/>
+										<UML:TaggedValue tag="lineStyle" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="9912"/>
+										<UML:TaggedValue tag="ea_sourceName" value="KwaliteitvanLevenTotaalscore"/>
+										<UML:TaggedValue tag="ea_targetName" value="PQ"/>
+										<UML:TaggedValue tag="ea_sourceType" value="Class"/>
+										<UML:TaggedValue tag="ea_targetType" value="Class"/>
+										<UML:TaggedValue tag="ea_sourceID" value="12732"/>
+										<UML:TaggedValue tag="ea_targetID" value="8"/>
+										<UML:TaggedValue tag="src_visibility" value="Public"/>
+										<UML:TaggedValue tag="src_aggregation" value="0"/>
+										<UML:TaggedValue tag="src_isOrdered" value="false"/>
+										<UML:TaggedValue tag="src_targetScope" value="instance"/>
+										<UML:TaggedValue tag="src_changeable" value="none"/>
+										<UML:TaggedValue tag="src_isNavigable" value="false"/>
+										<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+										<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+										<UML:TaggedValue tag="dst_visibility" value="Public"/>
+										<UML:TaggedValue tag="dst_aggregation" value="0"/>
+										<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+										<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+										<UML:TaggedValue tag="dst_changeable" value="none"/>
+										<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+										<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+										<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+										<UML:TaggedValue tag="virtualInheritance" value="0"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Generalization>
+							</UML:Namespace.ownedElement>
+						</UML:Package>
+						<UML:Package name="Example Instances" xmi.id="EAPK_E5C86AF5_869B_4353_9A91_72CC4E8F87F6" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;TODO: Translate&lt;/i&gt;&lt;/font&gt;&#xA;&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;In dit hoofdstuk kunnen een aantal voorbeeld scenario's en het gebruik en vulling van de verschillende concepten uit het informatiemodel in de tijd worden gevisualiseerd.&lt;/i&gt;&lt;/font&gt;&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;Dit is dus niet het werkproces, maar juist een voorbeeld van hoe het informatie model er ingevuld uit kan zien in de loop van het proces.&lt;/i&gt;&lt;/font&gt;&#xA;"/>
+								<UML:TaggedValue tag="parent" value="EAPK_0D46ED1F_6DD1_43ac_B26B_075654653C2C"/>
+								<UML:TaggedValue tag="created" value="2010-01-08 00:00:00"/>
+								<UML:TaggedValue tag="modified" value="2010-02-12 13:44:02"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2015-03-15 17:16:41"/>
+								<UML:TaggedValue tag="lastsavedate" value="2015-03-15 17:16:41"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="7"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="ZelM"/>
+								<UML:TaggedValue tag="alias" value="Voorbeeld scenario"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement>
+								<UML:Comment xmi.id="EAID_F9140C80_8EB6_4f29_9494_3E3D30A65920" visibility="public" namespace="EAPK_E5C86AF5_869B_4353_9A91_72CC4E8F87F6">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;Scenario beschrijving.&lt;/i&gt;&lt;/font&gt;&#xA;"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Note"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_E5C86AF5_869B_4353_9A91_72CC4E8F87F6"/>
+										<UML:TaggedValue tag="date_created" value="2010-01-08 13:58:58"/>
+										<UML:TaggedValue tag="date_modified" value="2010-01-08 13:59:19"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Example Instances"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="ZelM"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="12736"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Comment>
+							</UML:Namespace.ownedElement>
+						</UML:Package>
+						<UML:Package name="Instructions" xmi.id="EAPK_BCB0162A_6CC4_4a57_82CD_89D2629F1CF0" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl&#xA;&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;Bij alle patiënten dient de fysieke score van de vragenlijst ‘Kwaliteit van Leven bij Hartpatiënten’ (KVL-H)&#xA;gerelateerd te worden aan het objectieve inspanningsvermogen om te bepalen of de patiënt een goede&#xA;inschatting kan maken van het eigen inspanningsvermogen (17). Uit beslisboom bij fysiek functioneren.&#xA;&#xA;Om te bepalen of de patiënt een goede inschatting kan maken van het eigen inspanningsvermogen,&#xA;dient de vragenlijst ‘Kwaliteit van Leven bij Hartpatiënten’ (KVL-H; zie noot 6 en bijlage 1) te worden&#xA;afgenomen. Indien de patiënt op het fysieke deel van de KVL-H hoger scoort dan zou mogen worden&#xA;verwacht op basis van de resultaten van de objectieve inspanningstest is er sprake van een overschatting&#xA;van het inspanningsvermogen. Omgekeerd is er sprake van een angst voor inspanning indien de patiënt&#xA;op het fysieke deel van de KVL-H een lagere score heeft dan op basis van de resultaten van de objectieve&#xA;inspanningstest zou mogen worden verwacht (zie tabel bij vraag 1b in de Beslisboom Hartrevalidatie)."/>
+								<UML:TaggedValue tag="parent" value="EAPK_0D46ED1F_6DD1_43ac_B26B_075654653C2C"/>
+								<UML:TaggedValue tag="created" value="2009-11-01 00:00:00"/>
+								<UML:TaggedValue tag="modified" value="2009-11-01 00:00:00"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2015-03-15 17:16:41"/>
+								<UML:TaggedValue tag="lastsavedate" value="2015-03-15 17:16:41"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="8"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="ZelM"/>
+								<UML:TaggedValue tag="alias" value="Werkwijze"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Interpretation" xmi.id="EAPK_D018A7C3_3FD6_4d17_AE9E_E1433A82F8B7" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;Give a short description of how the results of the scale or the collection of data should be interpreted. Also mention which consequences the result has for patient and care. If needed distinguished to target groups. Also describe how a score is used in the process of the care giving. &lt;/i&gt;&lt;/font&gt;&#xA;&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;If a decision is based directly on the score this can be added here.&lt;/i&gt;&lt;/font&gt;&#xA;&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;Geef een beknopte beschrijving van hoe het resultaat van de schaal of de verzameling van gegevens geïnterpreteerd moet worden. Geef daarnaast aan welke consequenties het resultaat heeft voor patiënt en zorgverlening. Eventueel genuanceerd naar doelgroepen. Beschrijf ook hoe een score gebruikt wordt in het proces van zorg verlenen. &lt;/i&gt;&lt;/font&gt;&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;Als een beslissing direct op een score wordt gebaseerd kan die hier worden toegevoegd. &lt;/i&gt;&lt;/font&gt;&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;b&gt;&lt;i&gt;Bijvoorbeeld&lt;/i&gt;&lt;/b&gt;&lt;i&gt; &lt;/i&gt;&lt;/font&gt;&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;Bij een risico inventarisatie voor decubitus wordt veelal gebruikt gemaakt van een Decubitus risicoscore lijst. Op verschillende items wordt gekeken of dit item voor de patiënt een risico vormt. De somscore zegt iets over de mate van risico welke een patiënt loopt op decubitus. &lt;/i&gt;&lt;/font&gt;&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;Er is een verhoogd risico bij een score &amp;gt; 8. Preciezer: Dit is: &amp;lt;8 niet verhoogd risico, 8-12 verhoogd risico en  &amp;gt; 12 extra verhoogd risico. Aan de somscore kunnen vervolgens verpleegkundige acties worden gepland om decubitus bij de patiënt te voorkomen. &lt;/i&gt;&lt;/font&gt;&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;Ook beslissingen die naar aanleiding van een cluster gegevens kan worden genomen worden in deze paragraaf beschreven. &lt;/i&gt;&lt;/font&gt;&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;Indien het noodzakelijk is de wijze van afleiding mee te sturen in een bericht, kan de somscore, formule of redeneerregels in het attribuut derivationExpression van de observatieklasse worden opgenomen. &lt;/i&gt;&lt;/font&gt;&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;Let er bij het beschrijven van dit hoofdstuk wel op dat het niet te voorschrijvend wordt. Het gaat in de beschrijving in de DCM om een voorbeeld interpretatie niet om de interpretatie bij een individuele patiënt. Geef bijvoorbeeld wel, net als bij bovenstaand voorbeeld, actie grenzen aan. De nadruk ligt op wat het systeem aan interpretatie moet geven. De ICT-er moet kunnen zien wat er opgeslagen en doorgegeven moet worden. Tevens moet er een mogelijkheid zijn om normwaarden in te kunnen voegen.&lt;/i&gt;&lt;/font&gt;&#xA;"/>
+								<UML:TaggedValue tag="parent" value="EAPK_0D46ED1F_6DD1_43ac_B26B_075654653C2C"/>
+								<UML:TaggedValue tag="created" value="2009-07-04 12:17:26"/>
+								<UML:TaggedValue tag="modified" value="2009-07-04 12:17:26"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2009-07-04 12:17:27"/>
+								<UML:TaggedValue tag="lastsavedate" value="2009-07-04 12:17:26"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="9"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="ZelM"/>
+								<UML:TaggedValue tag="alias" value="Interpretatierichtlijnen"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Care Process" xmi.id="EAPK_259F52EA_1D50_4d39_8D19_84E9D69DDAE4" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="&lt;font color=&quot;#408080&quot;&gt;&lt;b&gt;&lt;i&gt;If necessary &lt;/i&gt;&lt;/b&gt;&lt;i&gt;give a description of the place of the DCM in the care process. Here it concerns the dependences of the use of the DCM, the implementation of the DCM related to other activities in the care process. Decisions and criteria that are in advance of the use of the DCM and who needs tot do what. &lt;/i&gt;&lt;/font&gt;&#xA;&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;font color=&quot;#0000ff&quot;&gt;Meetschaal die volgens een bepaald schema op meerdere momenten tijdens de cardiorevalidatie wordt toegepast. &lt;/font&gt;"/>
+								<UML:TaggedValue tag="parent" value="EAPK_0D46ED1F_6DD1_43ac_B26B_075654653C2C"/>
+								<UML:TaggedValue tag="created" value="2009-07-04 12:17:25"/>
+								<UML:TaggedValue tag="modified" value="2009-07-04 12:17:25"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2009-07-04 12:17:25"/>
+								<UML:TaggedValue tag="lastsavedate" value="2009-07-04 12:17:25"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="10"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="ZelM"/>
+								<UML:TaggedValue tag="alias" value="Zorgproces / afhankelijkheid"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Example of the Instrument" xmi.id="EAPK_9309FF56_CA16_4095_9E4C_C43EE35B8FF4" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;Place a picture of a paper version of the DCM  in this chapter. Of course only if available.&lt;/i&gt;&lt;/font&gt;&#xA;&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;Preferably use a scanned picture of good and readable quality.&lt;/i&gt;&lt;/font&gt;&#xA;&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;Op deze plaats kan een link naar een document gemaakt worden. Dit document kan zijn een geschande versie van de papierenversie van de DCM of een screenshot van een userinterface in een applicatie (niet vergeten toestemming te vragen aan de leverancier). Vermeld bij de referencies de bron.&lt;/i&gt;&lt;/font&gt;&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;Een andere mogelijkheid is het maken van een wireframe (UI Mockup). Het is een ontwerp van de DCM waarbij de verschillende onderdelen worden getoond zonder verdere opmaak.  Het doel is een indruk te geven van hoe de DCM er uit kan zien op een computerscherm.&lt;/i&gt;&lt;/font&gt;&#xA;"/>
+								<UML:TaggedValue tag="parent" value="EAPK_0D46ED1F_6DD1_43ac_B26B_075654653C2C"/>
+								<UML:TaggedValue tag="created" value="2009-07-04 12:17:28"/>
+								<UML:TaggedValue tag="modified" value="2009-07-04 12:17:28"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2009-07-04 12:17:29"/>
+								<UML:TaggedValue tag="lastsavedate" value="2009-07-04 12:17:28"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="11"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="ZelM"/>
+								<UML:TaggedValue tag="alias" value="Een voorbeeld van het instrument"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Constraints" xmi.id="EAPK_F6C4EF77_7CB5_4a9c_8511_900D5700A49D" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;TODO: Translate&lt;/i&gt;&lt;/font&gt;&#xA;&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;Indien bij de DCM van toepassing wordt dit hoofdstuk toegevoegd. Het gaat hierbij om een uitwerking van noodzakelijke inperkingen. Deze inperkingen kunnen technische of praktische inperkingen zijn. &lt;/i&gt;&lt;/font&gt;&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;Een voorbeeld bij een praktische inperking is dat bij NDF dataset van diabetes het alleen is toegestaan de bloeddruk zittend te meten.&lt;/i&gt;&lt;/font&gt;&#xA;"/>
+								<UML:TaggedValue tag="parent" value="EAPK_0D46ED1F_6DD1_43ac_B26B_075654653C2C"/>
+								<UML:TaggedValue tag="created" value="2010-02-12 00:00:00"/>
+								<UML:TaggedValue tag="modified" value="2010-02-12 00:00:00"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2015-03-15 17:16:41"/>
+								<UML:TaggedValue tag="lastsavedate" value="2015-03-15 17:16:41"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="12"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="ZelM"/>
+								<UML:TaggedValue tag="alias" value="Inperkingen"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Issues" xmi.id="EAPK_BCC1031F_140E_4616_9B2E_3F430920A8D5" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="&#xA;&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;Er zijn auteursrechtelijke beperkingen op het gebruik van de KVL-H. Een licentie voor het gebruik&#xA;van de vragenlijst kan verkregen worden via www.macnew.org. Reproductie van de vragenlijst zonder&#xA;toestemming is verboden. De scoring (hoe de score op de verschillende dimensies berekend wordt) is&#xA;een onderdeel van de licentie en daarom niet afgedrukt in dit document.&#xA;&#xA;Niet alle medische kennis rubrieken zijn uitgewerkt.&#xA;&#xA;De schaal zelf is nog niet gerepresenteerd. "/>
+								<UML:TaggedValue tag="parent" value="EAPK_0D46ED1F_6DD1_43ac_B26B_075654653C2C"/>
+								<UML:TaggedValue tag="created" value="2009-07-04 12:17:30"/>
+								<UML:TaggedValue tag="modified" value="2009-07-04 12:17:30"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2009-07-04 12:17:30"/>
+								<UML:TaggedValue tag="lastsavedate" value="2009-07-04 12:17:30"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="13"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="ZelM"/>
+								<UML:TaggedValue tag="alias" value="Issues en openstaande vragen"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="References" xmi.id="EAPK_895567BE_F4BE_4e49_B7B1_858C3AFD9A6F" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;b&gt;Projecten:&lt;/b&gt;&#xA;Open Data 4 Health, onderdeel van Slimmer Leven 2020. Een Coöperative georganiseerde samenwerking binnen Zuidoost-Nederland met Brainport Regio Eindhoven als kern. &#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;b&gt;Literatuur:&lt;/b&gt;&#xA;&lt;ul&gt;&#xA;	&lt;li&gt;Gezondheidsgerelateerde kwaliteit van leven. Geraadpleegd op 14 november 2013, via http://www.nationaalkompas.nl/gezondheid-en-ziekte/functioneren-en-kwaliteit-van-leven/kwaliteit-van-leven/&lt;/li&gt;&#xA;	&lt;li&gt;NVVC-CCPH – Commissie Cardiovasculaire Preventie en Hartrevalidatie; LMDO-H – Landelijk Multidisciplinair Overleg Hartrevalidatie(2012). &lt;i&gt;Beslisboom Poliklinische Indicatiestelling Hartrevalidatie&lt;/i&gt; 2012. Utrecht, NCCV.&lt;/li&gt;&#xA;	&lt;li&gt;NVVC-CCPH (Commissie Cardiovasculaire Preventie en Hartrevalidatie); LMDO-H (Landelijk Multidisciplinair Overleg Hartrevalidatie). (2011).&lt;i&gt; NVVC praktijkrichtlijn hartrevalidatie&lt;/i&gt;. Utrecht, NVVC.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;b&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/b&gt;&lt;/font&gt;&lt;b&gt;Vocabulary:&lt;/b&gt;&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;Hier wordt of worden de vocabulaires, inclusief de OID, genoemd die in de betreffende DCM worden gebruikt, inclusief de release en/of versie. &lt;/i&gt;&lt;/font&gt;"/>
+								<UML:TaggedValue tag="parent" value="EAPK_0D46ED1F_6DD1_43ac_B26B_075654653C2C"/>
+								<UML:TaggedValue tag="created" value="2009-11-01 00:00:00"/>
+								<UML:TaggedValue tag="modified" value="2009-11-01 00:00:00"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2015-03-15 17:16:41"/>
+								<UML:TaggedValue tag="lastsavedate" value="2015-03-15 17:16:41"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="14"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="ZelM"/>
+								<UML:TaggedValue tag="alias" value="Referenties"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Functional Model" xmi.id="EAPK_3A431401_196A_45b6_8083_50CD84D810C2" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;Voor de vragenlijst zijn de functionaliteiten horende bij 'CP.3 Manage Clinical Documentation' van belang. Ook alle relaties die behoren tot deze functionaliteiten zijn relevant. &#xA;Noot: CP = Care Provision."/>
+								<UML:TaggedValue tag="parent" value="EAPK_0D46ED1F_6DD1_43ac_B26B_075654653C2C"/>
+								<UML:TaggedValue tag="created" value="2009-07-04 12:17:21"/>
+								<UML:TaggedValue tag="modified" value="2009-07-04 12:17:21"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2009-07-04 12:17:22"/>
+								<UML:TaggedValue tag="lastsavedate" value="2009-07-04 12:17:21"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="15"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="ZelM"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Traceability to other Standards" xmi.id="EAPK_613A0F58_8734_496e_AACE_2675C9D5DFFA" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl&#xA;&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;In de 'Beslisboom Poliklinische Indicatiestelling Hartrevalidatie 2012' is de Vragenlijst Kwaliteit van Leven opgenomen. De vragenlijst kan worden gebruikt bij de indicatiestelling voor hartrevalidatie."/>
+								<UML:TaggedValue tag="parent" value="EAPK_0D46ED1F_6DD1_43ac_B26B_075654653C2C"/>
+								<UML:TaggedValue tag="created" value="2009-07-04 12:17:23"/>
+								<UML:TaggedValue tag="modified" value="2009-07-04 12:17:23"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2009-07-04 12:17:24"/>
+								<UML:TaggedValue tag="lastsavedate" value="2009-07-04 12:17:23"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="16"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="ZelM"/>
+								<UML:TaggedValue tag="alias" value="Traceerbaarheid naar andere standaarden"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Disclaimer" xmi.id="EAPK_C370148E_25C2_428f_8769_8C23F95325BB" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;Fill in the project specific values.&lt;/i&gt;&lt;/font&gt;&#xA;&#xA;&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;(Customer)&lt;/i&gt;&lt;/font&gt; as ordering customer and Results 4 Care B.V. and Parelsnoer as subcontractor give utmost care  to the reliability and timeliness of data in this DCM, Detailed Clinical Model. Errors and inaccuracies may occur.  &lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;(Customer)&lt;/i&gt;&lt;/font&gt;,  Results 4 Care and Parelsnoer are not responsible for damages resulting from errors or inaccuracies in the information, nor for damages arising from problems caused by, or inherent in the spreading of information via the Internet, as failures or interruptions from either errors or delays in the distribution of information or services by Nictiz, Results 4 Care or  Parelsnoer, or form you to &lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;(Customer)&lt;/i&gt;&lt;/font&gt;, Results 4 Care or Paerlsnoer by means of a website from &lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;(Customer)&lt;/i&gt;&lt;/font&gt;, Results 4 Care or Parelsnoer of by e-mail, or otherwise electronically.&#xA;&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;(Customer)&lt;/i&gt;&lt;/font&gt;, Results 4 care and Parelsnoer do not accept responsibility for possible damage suffered as a result of the use of data, advise or ideas provided by or in name of &lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;(Customer)&lt;/i&gt;&lt;/font&gt;, Results 4 Care or Parelsnoer by way of this DCM.  &lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;(Customer) &lt;/i&gt;&lt;/font&gt;does not accept responsibility for the content of information in this DCM to which or from which using a hyperlink or otherwise, is referred.&#xA;&#xA;In case of contradictions in the mentioned DCM documents en files the priority of the relevant documents is stated by the most recent and highest version mentioned in the revision (version management). &#xA;In case information that is included in the electronic version of this DCM is also provided in writing, in case of textual differences the written version will determine. This applies if the version description and date of both are equal. The definitive version has priority over a concept version. A revised version has priority over a previous version.&#xA;&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;Pas de tekst aan, aan het project. &lt;/i&gt;&lt;/font&gt;&#xA;&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;(Naamopdrachtgever hier invoegen)&lt;/i&gt;&lt;/font&gt; als opdrachtgever en Results 4 Care B.V. als uitvoerder besteden de grootst mogelijke zorg aan de betrouwbaarheid en actualiteit van de gegevens in deze DCM. Onjuistheden en onvolledigheden kunnen echter voorkomen. &lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;(De opdrachtgever)&lt;/i&gt;&lt;/font&gt; en Results 4 Care zijn niet aansprakelijk voor schade als gevolg van onjuistheden of onvolledigheden in de aangeboden informatie, noch voor schade die het gevolg is van problemen veroorzaakt door, of inherent aan het verspreiden van informatie via het internet, zoals storingen of onderbrekingen van of fouten of vertraging in het verstrekken van informatie of diensten door &lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;(De opdrachtgever)&lt;/i&gt;&lt;/font&gt; of Results 4 Care, of door U aan &lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;(De opdrachtgever)&lt;/i&gt;&lt;/font&gt; of Results 4 Care via een website van &lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;(De opdrachtgever)&lt;/i&gt;&lt;/font&gt; of Results 4 Care of via e-mail, of anderszins langs elektronische weg. &#xA;&#xA;Tevens aanvaarden &lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;(De opdrachtgever)&lt;/i&gt;&lt;/font&gt; en Results 4 Care geen aansprakelijkheid voor eventuele schade die geleden wordt als gevolg van het gebruik van gegevens, adviezen of ideeën verstrekt door of namens &lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;(De opdrachtgever)&lt;/i&gt;&lt;/font&gt; via deze DCM, Detailed Clinical Model. &lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;(De opdrachtgever)&lt;/i&gt;&lt;/font&gt; aanvaardt geen verantwoordelijkheid voor de inhoud van informatie in deze DCM waarnaar of waarvan met een hyperlink of anderszins wordt verwezen.&#xA;&#xA;In geval van tegenstrijdigheden in de genoemde DCM documenten en bestanden geeft de meest recente en hoogste versie van de vermelde volgorde in de revisies de prioriteit van de desbetreffende documenten weer. &#xA;&#xA;Indien informatie die in de elektronische versie van deze DCM is opgenomen ook schriftelijk wordt verstrekt, zal in geval van tekstverschillen de schriftelijke versie bepalend zijn. Dit geldt indien de versieaanduiding en datering van beiden gelijk is. Een definitieve versie heeft prioriteit echter boven een conceptversie. Een gereviseerde versie heeft prioriteit boven een eerdere versie. &#xA;"/>
+								<UML:TaggedValue tag="parent" value="EAPK_0D46ED1F_6DD1_43ac_B26B_075654653C2C"/>
+								<UML:TaggedValue tag="created" value="2009-11-01 00:00:00"/>
+								<UML:TaggedValue tag="modified" value="2009-11-01 00:00:00"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2015-03-15 17:16:41"/>
+								<UML:TaggedValue tag="lastsavedate" value="2015-03-15 17:16:41"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="17"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="ZelM"/>
+								<UML:TaggedValue tag="alias" value="Disclaimer"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Terms of Use" xmi.id="EAPK_29257CF2_0398_4f38_BA65_FDDC4E4BBA66" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;Het DCM is open source, met andere woorden vrij te gebruiken, mits in ongewijzigde vorm. &#xA;Veranderen van inhoud en coderingen wordt gezien als een inbreuk op de auteursrechten en copyrights en is schadelijk voor het gebruiksdoel: realiseren van semantische interoperabiliteit.&#xA;&#xA;U kunt wel wijzigingsvoorstellen sturen aan DCMHelpdesk@results4care.eu&#xA;&#xA;Revisievoorstellen zullen worden bekeken en kunnen leiden tot: &#xA;&#xA;a.   herziene DCM en uitwerkingen als e.e.a. wordt geaccepteerd.&#xA;b.   varianten van DCM die op een lokale situatie zijn toegesneden.&#xA;&#xA;Het geheel gaat uit van het uitgangspunt: een ‘common ownership’, maar een ‘special stewardship’."/>
+								<UML:TaggedValue tag="parent" value="EAPK_0D46ED1F_6DD1_43ac_B26B_075654653C2C"/>
+								<UML:TaggedValue tag="created" value="2010-01-08 00:00:00"/>
+								<UML:TaggedValue tag="modified" value="2010-01-08 00:00:00"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2015-03-15 17:16:41"/>
+								<UML:TaggedValue tag="lastsavedate" value="2015-03-15 17:16:41"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="18"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="ZelM"/>
+								<UML:TaggedValue tag="alias" value="Gebruiksvoorwaarden"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Copyrights" xmi.id="EAPK_F8CA0AAD_BFD3_402b_84E3_30C965EF51D7" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;b&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/b&gt;&lt;/font&gt;&lt;b&gt;Licenties van bronmateriaal&lt;/b&gt;&#xA;Er zijn auteursrechtelijke beperkingen op het gebruik van de KVL-H. Een licentie voor het gebruik&#xA;van de vragenlijst kan verkregen worden via www.macnew.org. Reproductie van de vragenlijst zonder&#xA;toestemming is verboden. "/>
+								<UML:TaggedValue tag="parent" value="EAPK_0D46ED1F_6DD1_43ac_B26B_075654653C2C"/>
+								<UML:TaggedValue tag="created" value="2010-01-08 00:00:00"/>
+								<UML:TaggedValue tag="modified" value="2010-01-08 00:00:00"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2015-03-15 17:16:41"/>
+								<UML:TaggedValue tag="lastsavedate" value="2015-03-15 17:16:41"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="19"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="ZelM"/>
+								<UML:TaggedValue tag="alias" value="Copyrights"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+					</UML:Namespace.ownedElement>
+				</UML:Package>
+				<UML:Stereotype xmi.id="EAID_94A230BB_0579_47ac_9C54_69EA0CE0A760" name="DCM" isRoot="false" isLeaf="false" isAbstract="false">
+					<UML:Stereotype.baseClass>Package</UML:Stereotype.baseClass>
+				</UML:Stereotype>
+			</UML:Namespace.ownedElement>
+		</UML:Model>
+		<UML:TaggedValue tag="DCM::CoderList" xmi.id="EAID_499B3150_B9D8_4fd8_BCC7_6B5223311CE9" modelElement="MX_EAID_0D46ED1F_6DD1_43ac_B26B_075654653C2C"/>
+		<UML:TaggedValue tag="DCM::ContactInformation.Address" xmi.id="EAID_B63D7ECB_3C1D_48fc_BDF4_A555B763C1C3" value="*" modelElement="MX_EAID_0D46ED1F_6DD1_43ac_B26B_075654653C2C"/>
+		<UML:TaggedValue tag="DCM::ContactInformation.Name" xmi.id="EAID_C04B67E4_F492_4a52_B929_AD6170D23C42" value="*#NOTES#The contact information where questions can be asked or feedback can be send to." modelElement="MX_EAID_0D46ED1F_6DD1_43ac_B26B_075654653C2C"/>
+		<UML:TaggedValue tag="DCM::ContactInformation.Telecom" xmi.id="EAID_B67FAD19_3759_4f32_8A2F_8D20E0929B34" value="DCMHelpdesk@results4care.eu" modelElement="MX_EAID_0D46ED1F_6DD1_43ac_B26B_075654653C2C"/>
+		<UML:TaggedValue tag="DCM::ContentAuthorList" xmi.id="EAID_BE51F328_4FFC_4550_88F4_9D0B6DB1D887" value="*#NOTES#Names of the people that contributed to the development of the DCM. The organization these people work for is also mentioned. The position of the author can be mentioned." modelElement="MX_EAID_0D46ED1F_6DD1_43ac_B26B_075654653C2C"/>
+		<UML:TaggedValue tag="DCM::CreationDate" xmi.id="EAID_CA0E4293_E76D_4878_812C_86444B6E61D1" modelElement="MX_EAID_0D46ED1F_6DD1_43ac_B26B_075654653C2C"/>
+		<UML:TaggedValue tag="DCM::DeprecatedDate" xmi.id="EAID_76EE629F_2C29_4c40_B29D_6474DA083E6A" modelElement="MX_EAID_0D46ED1F_6DD1_43ac_B26B_075654653C2C"/>
+		<UML:TaggedValue tag="DCM::DescriptionLanguage" xmi.id="EAID_A10BF4EB_B483_4800_A736_92965504C6A3" value="nl#NOTES#The languages in which the DCM is developed. This can be only Dutch or English, or both, or other languages." modelElement="MX_EAID_0D46ED1F_6DD1_43ac_B26B_075654653C2C"/>
+		<UML:TaggedValue tag="DCM::EndorsingAuthority.Address" xmi.id="EAID_794D9395_97A4_4b5f_BE7E_4309D2792362" modelElement="MX_EAID_0D46ED1F_6DD1_43ac_B26B_075654653C2C"/>
+		<UML:TaggedValue tag="DCM::EndorsingAuthority.Address" xmi.id="EAID_28B634BD_B03B_4930_9D71_249A5FD42817" modelElement="MX_EAID_0D46ED1F_6DD1_43ac_B26B_075654653C2C"/>
+		<UML:TaggedValue tag="DCM::EndorsingAuthority.Name" xmi.id="EAID_50851D1F_AFE1_42e0_839D_BF7A79ABD4B2" value="#NOTES#This is the authority that approved the clinical contents of the DCM. This can be scientific or professional organisations, or institutes of quality, normalisation institutes, governments etc." modelElement="MX_EAID_0D46ED1F_6DD1_43ac_B26B_075654653C2C"/>
+		<UML:TaggedValue tag="DCM::EndorsingAuthority.Telecom" xmi.id="EAID_ED88050B_5B4C_4237_819A_63136F5C3766" modelElement="MX_EAID_0D46ED1F_6DD1_43ac_B26B_075654653C2C"/>
+		<UML:TaggedValue tag="DCM::Id" xmi.id="EAID_4574860E_541F_403a_91E7_14C86A82AE73" value="*" modelElement="MX_EAID_0D46ED1F_6DD1_43ac_B26B_075654653C2C"/>
+		<UML:TaggedValue tag="DCM::KeywordList" xmi.id="EAID_C4A76963_F863_48d9_B560_804C16BA019A" value="*#NOTES#Here keywords and codes for keywords are mentioned. This concerns keywords by which the DCM can be found in a repository. A keyword can be a synonym, a derivative term or a generic ( like the Bradenscale with a keyword Pressure Ulcer Risk).&#xA;Concepts and identifications from MeSH Heading can also be mentioned here." modelElement="MX_EAID_0D46ED1F_6DD1_43ac_B26B_075654653C2C"/>
+		<UML:TaggedValue tag="DCM::LifecycleStatus" xmi.id="EAID_6B80F017_AE33_47cd_BC82_245BDA0C8AF9" modelElement="MX_EAID_0D46ED1F_6DD1_43ac_B26B_075654653C2C"/>
+		<UML:TaggedValue tag="DCM::ModelerList" xmi.id="EAID_620B399F_6388_4e92_9A52_42F66ED71706" value="William Goossen" modelElement="MX_EAID_0D46ED1F_6DD1_43ac_B26B_075654653C2C"/>
+		<UML:TaggedValue tag="DCM::Name" xmi.id="EAID_93434A5A_A47B_4ccd_BC3B_E73BD368D95B" value="nl.OD4H.KwaliteitvanLevenmini" modelElement="MX_EAID_0D46ED1F_6DD1_43ac_B26B_075654653C2C"/>
+		<UML:TaggedValue tag="DCM::PublicationDate" xmi.id="EAID_CF6EF5C7_0A05_4185_BA82_4A8FA36B9232" value="*#NOTES#The date this version was made." modelElement="MX_EAID_0D46ED1F_6DD1_43ac_B26B_075654653C2C"/>
+		<UML:TaggedValue tag="DCM::PublicationStatus" xmi.id="EAID_33A08AE6_B44E_422a_9FB6_A531A1880AD4" value="*#NOTES#The status of the DCM on that moment. Strike out the other status.&#xA;All status levels are mentioned after the process of development and review are clear (concept).&#xA;&#xA;Author Draft(en);&#xA;Committee Draft(en);&#xA;Organisation Draft(en);&#xA;Submitted(en);&#xA;Withdrawn&#xA;Rejected(en) &#xA;Obsolete&#xA;Approved for testing&#xA;Approved for Production Use&#xA;Superseded" modelElement="MX_EAID_0D46ED1F_6DD1_43ac_B26B_075654653C2C"/>
+		<UML:TaggedValue tag="DCM::ReviewerList" xmi.id="EAID_CF436C09_DBC4_4175_8534_2D8A25CAE602" modelElement="MX_EAID_0D46ED1F_6DD1_43ac_B26B_075654653C2C"/>
+		<UML:TaggedValue tag="DCM::RevisionDate" xmi.id="EAID_170A7933_EE51_4df8_BB07_654E05F74ECD" modelElement="MX_EAID_0D46ED1F_6DD1_43ac_B26B_075654653C2C"/>
+		<UML:TaggedValue tag="DCM::Superseeds" xmi.id="EAID_437C82AF_0FE2_4e8f_B767_25B83A185E9D" modelElement="MX_EAID_0D46ED1F_6DD1_43ac_B26B_075654653C2C"/>
+		<UML:TaggedValue tag="DCM::Version" xmi.id="EAID_D150EE73_5905_4ad7_BB39_F6705C796949" value="0.4" modelElement="MX_EAID_0D46ED1F_6DD1_43ac_B26B_075654653C2C"/>
+		<UML:Diagram name="Views" xmi.id="EAID_3C9A956E_79A4_4a00_95CB_5E0C9AE92518" diagramType="CustomDiagram" owner="EAPK_0D46ED1F_6DD1_43ac_B26B_075654653C2C" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="ZelM"/>
+				<UML:TaggedValue tag="created_date" value="2015-03-15 17:16:41"/>
+				<UML:TaggedValue tag="modified_date" value="2015-03-15 17:16:41"/>
+				<UML:TaggedValue tag="package" value="EAPK_0D46ED1F_6DD1_43ac_B26B_075654653C2C"/>
+				<UML:TaggedValue tag="type" value="Custom"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;;cls=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;width=1;"/>
+				<UML:TaggedValue tag="ea_localid" value="827"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=0;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=1169;DocSize.cy=827;ShowDetails=0;Orientation=L;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=37755AC7;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=Extended::ModelDocument;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=260;Top=70;Right=860;Bottom=379;" subject="EAID_7E6E9D93_064B_4b42_B81C_6735EEDC68F5" seqno="1" style="font=Arial;fontsz=120;bold=0;italic=0;ul=0;charset=0;pitch=34;DUID=99C8C93F;"/>
+				<UML:DiagramElement geometry="Left=30;Top=40;Right=220;Bottom=726;" subject="EAID_0D46ED1F_6DD1_43ac_B26B_075654653C2C" seqno="2" style="Tag=1;RzO=1;DUID=C14188C3;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+		<UML:TaggedValue tag="DCM::DefinitionCode" xmi.id="EAID_5C1E34CE_D66C_46a8_B1EA_C5959C301437" value="SYNTEMP:KvL003" modelElement="EAID_11A1944A_3608_433f_AE5B_0FF00C5F3036"/>
+		<UML:TaggedValue tag="DCM::DefinitionCode" xmi.id="EAID_159F71B6_A7B6_417c_B83F_F062146EE2C6" value="SYNTEMP:KvL001" modelElement="EAID_7EFE7104_778B_4080_8078_B4C52FBC530C"/>
+		<UML:TaggedValue tag="DCM::DefinitionCode" xmi.id="EAID_6542EBF9_E215_49d3_B87E_FDCAB93E44C9" value="SYNTEMP:KvL002" modelElement="EAID_ED670827_EAEB_4f5c_87F9_48AEE72A52F2"/>
+		<UML:Diagram name="Information Model" xmi.id="EAID_4457105A_3234_46f0_96F0_DEF68CDE2274" diagramType="ClassDiagram" owner="EAPK_36C8C689_219F_4d17_8996_8B00964E2126" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="0.4"/>
+				<UML:TaggedValue tag="author" value="WGoossen"/>
+				<UML:TaggedValue tag="created_date" value="2015-03-15 17:16:41"/>
+				<UML:TaggedValue tag="modified_date" value="2015-03-16 07:28:19"/>
+				<UML:TaggedValue tag="package" value="EAPK_36C8C689_219F_4d17_8996_8B00964E2126"/>
+				<UML:TaggedValue tag="type" value="Logical"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;;cls=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;width=1;"/>
+				<UML:TaggedValue tag="ea_localid" value="828"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=1169;DocSize.cy=827;ShowDetails=0;Orientation=L;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=37481482;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=105;Top=308;Right=258;Bottom=378;" subject="EAID_C812692F_911C_499f_A394_B900B83AC66B" seqno="1" style="DUID=79101667;"/>
+				<UML:DiagramElement geometry="Left=206;Top=183;Right=354;Bottom=253;" subject="EAID_11A1944A_3608_433f_AE5B_0FF00C5F3036" seqno="2" style="DUID=371BEE6B;"/>
+				<UML:DiagramElement geometry="Left=10;Top=120;Right=111;Bottom=238;" subject="EAID_BABF4B20_52D1_4ae7_A8F3_B46E899413E8" seqno="3" style="DUID=E1D339DF;"/>
+				<UML:DiagramElement geometry="Left=438;Top=86;Right=596;Bottom=166;" subject="EAID_ED670827_EAEB_4f5c_87F9_48AEE72A52F2" seqno="4" style="DUID=376DF030;"/>
+				<UML:DiagramElement geometry="Left=230;Top=20;Right=330;Bottom=100;" subject="EAID_7EFE7104_778B_4080_8078_B4C52FBC530C" seqno="5" style="DUID=7DE3FD80;"/>
+				<UML:DiagramElement geometry="Left=10;Top=10;Right=169;Bottom=85;" subject="EAID_C94ADFE5_B001_40cb_A1C7_6BB160495D90" seqno="6" style="DUID=AC4C4EF7;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_DE4BCA76_A549_4611_BEFD_E818BC27939D" style="Mode=3;EOID=371BEE6B;SOID=79101667;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_BED12AC4_A297_4015_B676_08FB67CD0DFD" style="Mode=3;EOID=7DE3FD80;SOID=371BEE6B;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_38DF4FE2_DBB1_4075_984A_A586D0001EC0" style="Mode=3;EOID=7DE3FD80;SOID=376DF030;Color=-1;LWidth=0;Hidden=0;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+		<UML:Diagram name="Example Instances" xmi.id="EAID_6D701E0B_2775_49db_9DBE_A8B19E183CAF" diagramType="ObjectDiagram" owner="EAPK_E5C86AF5_869B_4353_9A91_72CC4E8F87F6" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="ZelM"/>
+				<UML:TaggedValue tag="created_date" value="2015-03-15 17:16:41"/>
+				<UML:TaggedValue tag="modified_date" value="2015-03-15 17:16:41"/>
+				<UML:TaggedValue tag="package" value="EAPK_E5C86AF5_869B_4353_9A91_72CC4E8F87F6"/>
+				<UML:TaggedValue tag="type" value="Object"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;;cls=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=true;swimlanesactive=false;width=3;"/>
+				<UML:TaggedValue tag="ea_localid" value="829"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=1169;DocSize.cy=827;ShowDetails=0;Orientation=L;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=D21F4F05;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=1;SwimlanesActive=0;MatrixLineWidth=3;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=0;Top=150;Right=160;Bottom=240;" subject="EAID_F9140C80_8EB6_4f29_9494_3E3D30A65920" seqno="1" style="DUID=C257CEF9;"/>
+				<UML:DiagramElement subject="EAID_BEA3E3F6_7EE3_4e73_90E4_614185D247B9" style="matrixitem,Column,Tijdstip 1,,,0,0,0,0,0,0,0,0,Arial,Arial,Arial,12,12,12,0,0,0,0,0,0,0,0,0,0,0,0,242,200," geometry=""/>
+				<UML:DiagramElement subject="EAID_0A9B32A2_3A23_47b6_A701_719CC6EDBB3E" style="matrixitem,Column,Tijdstip 2,,,0,0,0,0,0,0,0,0,Arial,Arial,Arial,12,12,12,0,0,0,0,0,0,0,0,0,0,0,0,247,200," geometry=""/>
+				<UML:DiagramElement subject="EAID_A8F1EDC0_D11E_4481_8152_E804C2B50B3D" style="matrixitem,Row,Scenario 1,,,0,0,0,0,0,0,0,0,Arial,Arial,Arial,12,12,12,0,0,0,0,0,0,0,0,0,0,0,0,200,147," geometry=""/>
+				<UML:DiagramElement subject="EAID_FFEB90B6_BF59_443f_BD61_26402DB126FF" style="matrixitem,Row,Scenario n,,,0,0,0,0,0,0,0,0,Arial,Arial,Arial,12,12,12,0,0,0,0,0,0,0,0,0,0,0,0,200,157," geometry=""/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+	</XMI.content>
+	<XMI.difference/>
+	<XMI.extensions xmi.extender="Enterprise Architect 2.5">
+		<EAStub xmi.id="EAID_FA92CB33_6CA4_4c65_9339_687DFAD179D5" name="CD" UMLType="Class"/>
+		<EAModel.paramSub/>
+		<EAStub xmi.id="EAID_47741A68_C41C_4203_9178_E3B577A337C8" name="PQ" UMLType="Class"/>
+	</XMI.extensions>
+</XMI>
